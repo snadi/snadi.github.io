@@ -21,9 +21,9 @@ permalink: /students/
 # Previous Students #
 
 ### Masters Students ###
-* Marco Radavelli, TU Darmstadt & University of Bergamo
-MSc. (2016): <i>Simplifying Boolean Constraints in Highly Configurable Systems</i>,
-(co-supervised with Angelo Gargantini ) 
+* Marco Radavelli, TU Darmstadt & University of Bergamo\n
+MSc. (2016): <i>Simplifying Boolean Constraints in Highly Configurable Systems</i>\n
+(co-supervised with Angelo Gargantini ) \n
 Now pursuing a PhD at University of Bergamo
 * Hamza Zulfiqar, <i>Towards Detecting Unintended Feature Interactions</i>, TU Darmstadt, 2016. -- Currently a software developer at Dtango, Berlin
 * David Dahlen, <i>Identification of High-Quality Answers Containing Code Snippets on Stack Overflow</i>, 2015. (Co-supervised with Sven Amann and Sebastian Proksch) -- Currently a Freelance IT Consultant in Germany
