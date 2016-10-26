@@ -6,8 +6,8 @@
 
 
 // Our variables
-$base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-$base-font-size:   .95em;
+$base-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -21,7 +21,7 @@ $clemson-purple:      #CACACA;
 $clemson-orange:      #97000A;
 
 
-$grey-color:       #828282;
+$grey-color:       rgba(0, 0, 0, 0.6);
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
@@ -30,7 +30,18 @@ $grey-color-dark:  darken($grey-color, 25%);
 $content-width:    950px;
 
 $on-palm:          600px;
-$on-laptop:        950px;
+$on-laptop:        800px;
+
+
+// Picture profile
+$profilepic-size:  200px;
+
+// Header
+$header-height:		40px;
+$page-nav-font:		1.25em;
+
+// Footer
+$footer-font-size:	1em;
 
 
 
