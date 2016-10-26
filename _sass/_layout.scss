@@ -255,3 +255,22 @@ ul.listing li.listing-item a {
 	font-family: 'Titillium Web', sans-serif;
 }
 
+/**
+ * Profile picture on home page
+ */
+.profile-home {
+    float: right;
+    max-height: $profilepic-size;
+    max-width:  $profilepic-size;
+    border-radius: 5%;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    
+    @include media-query($on-palm) {
+    	max-height: $profilepic-size * 0.5;
+        max-width:  $profilepic-size * 0.5;
+        margin-left: 1px;
+    	margin-bottom: 1px;
+    }
+}
+
