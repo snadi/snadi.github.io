@@ -3,7 +3,7 @@ layout: post
 title: API Misuses
 date: 2016-10-26 16:22:00
 permalink: /api-misuse
-group: research
+group: research-current
 excerpt_separator: <!--more-->
 weight: 3
 ---

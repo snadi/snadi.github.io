@@ -4,7 +4,7 @@ title: Cryptography APIs
 date: 2016-10-26 16:37:00
 permalink: /crypto-apis/
 excerpt_separator: <!--more-->
-group: research
+group: research-current
 weight: 4
 ---
 
