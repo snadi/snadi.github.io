@@ -5,7 +5,7 @@ permalink: /research/
 group: research
 ---
 
-## Resarch Interests ##
+# Resarch Interests #
 
 * Empirical Software Engineering
 * Mining Software Repositories
@@ -13,8 +13,8 @@ group: research
 * API misuses
 * Software maintenance and evolution
 
-## Current Research Projects ##
+# Current Research Projects #
 
 {% include filteredposts.html %}
 
-## Completed Research Projects ##
+# Completed Research Projects #
