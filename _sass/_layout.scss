@@ -262,14 +262,10 @@ ul.listing li.listing-item a {
     float: right;
     max-height: $profilepic-size;
     max-width:  $profilepic-size;
-    margin-left: 2px;
-    margin-bottom: 2px;
     
     @include media-query($on-palm) {
     	max-height: $profilepic-size * 0.5;
         max-width:  $profilepic-size * 0.5;
-        margin-left: 1px;
-    	margin-bottom: 1px;
     }
 }
 
