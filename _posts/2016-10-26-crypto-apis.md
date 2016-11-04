@@ -5,7 +5,7 @@ date: 2016-10-26 16:37:00
 permalink: /crypto-apis/
 excerpt_separator: <!--more-->
 group: research
-tag: current
+tags: current
 weight: 4
 ---
 
