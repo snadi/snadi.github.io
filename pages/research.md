@@ -15,9 +15,9 @@ group: research
 
 # Current Research Projects #
 
-{% include filteredposts.html status="current" %}
+{% include filteredposts.html %}
 
 
 # Completed Research Projects #
 
-{% include filteredposts.html status="completed" %}
+{% include filteredposts.html %}

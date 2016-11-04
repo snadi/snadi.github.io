@@ -1,7 +1,7 @@
 <ul class="post-list">
 {% assign posts = site.posts | where: 'group',page.group | sort:'weight', 'last' %}
 {% for post in posts %}
-	{% if {{ include.status }} in post.tags %}
+	<!-- {% if {{ include.status }} in post.tags %} -->
 	<li>
 		<h2>
 			<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -13,6 +13,6 @@
 			{{ post.content }}
 		{% endif %}
 	</li>
-	{% endif %}
+	<!-- {% endif %} -->
 {% endfor %}
 </ul>
