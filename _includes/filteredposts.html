@@ -1,5 +1,5 @@
 <ul class="post-list">
-{% assign posts = site.posts | where: 'group',page.group | append: '-' | append page.variable | sort:'weight', 'last' %}
+{% assign posts = site.posts | where: 'group',page.group | where 'tag', page.variable | sort:'weight', 'last' %}
 {% for post in posts %}
 <li>
 	<h2>

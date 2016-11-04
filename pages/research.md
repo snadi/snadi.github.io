@@ -17,4 +17,7 @@ group: research
 
 {% include filteredposts.html param="current" variable-param=page.variable%}
 
+
 # Completed Research Projects #
+
+{% include filteredposts.html param="completed" variable-param=page.variable%}
