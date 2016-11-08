@@ -251,12 +251,12 @@ div#two {
   /* code from https://www.thesitewizard.com/css/design-2-column-layout.shtml */
    div#one { 
     float: none;
-    margin-right:0;
+    margin-left:0;
     width:auto;  
   }
    div#two { 
     float: none;
-    margin-left:0;
+    margin-right:0;
     width:auto;  
   }
 }
