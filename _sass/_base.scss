@@ -254,6 +254,11 @@ div#two {
     margin-right:0;
     width:auto;  
   }
+   #two { 
+    float: none;
+    margin-left:0;
+    width:auto;  
+  }
 }
 //http://stackoverflow.com/questions/14436800/two-divs-next-to-each-other-that-then-stack-with-responsive-change
 // .wrapper { 
