@@ -220,16 +220,13 @@ text-decoration: none;
 font-family: 'Capita', Georgia, serif;
 }
 
+//announcement box
 .emph-border {
     background-color:#F8F5F4;
 	width:90%;
     border: 2px solid red;
     padding: 10px;
     margin: auto;
-}
-
-p.textblock{
-	text-align: justify;
 }
 
 	
@@ -242,23 +239,44 @@ section {
     padding: 10px;
 }
 div#one {
-    width: 75%;
+    width: 70%;
     float: left;
 }
 div#two {
-   margin-left:75%;
+   margin-left:70%;
 }
 
-@media only screen and (min-width: 630px) {
+@media only screen and (min-width:320px) and (max-width:640px) {
   /* only for screens wider or equal to 630 pixels */
   /* code from https://www.thesitewizard.com/css/design-2-column-layout.shtml */
-  #content {
-    float: right ;
-    width: 80% ;
-  }
-  #navbar {
-    float: right;
-    width: 20%;
+   #one { 
+    float: none;
+    margin-right:0;
+    width:auto;  
   }
 }
+//http://stackoverflow.com/questions/14436800/two-divs-next-to-each-other-that-then-stack-with-responsive-change
+// .wrapper { 
+// }
+// 
+// .wrapper div {
+//    width: 100%;
+//    margin: auto;
+//    padding: 10px;
+// }
+// #one {
+// 	width: 75%;
+// 	float: left;
+// }
+// #two { 
+// 	margin-left:75%;
+// }
+
+// @media screen and (max-width: 600px) {
+//    #one { 
+//     float: none;
+//     margin-right:0;
+//     width:auto;  
+//   }
+// }
 

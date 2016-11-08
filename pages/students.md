@@ -22,7 +22,7 @@ permalink: /students/
 
 ### Master's Degrees ###
 * Marco Radavelli, TU Darmstadt & University of Bergamo
-        MSc. (2016): <i>Simplifying Boolean Constraints in Highly Configurable Systems</i>
+        MSc. (2016): *Simplifying Boolean Constraints in Highly Configurable Systems*
         (co-supervised with Angelo Gargantini )
         Now pursuing a PhD at University of Bergamo
 
