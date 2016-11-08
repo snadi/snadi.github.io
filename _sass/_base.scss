@@ -249,12 +249,12 @@ div#two {
 @media only screen and (min-width:320px) and (max-width:640px) {
   /* only for screens wider or equal to 630 pixels */
   /* code from https://www.thesitewizard.com/css/design-2-column-layout.shtml */
-   #one { 
+   div#one { 
     float: none;
     margin-right:0;
     width:auto;  
   }
-   #two { 
+   div#two { 
     float: none;
     margin-left:0;
     width:auto;  
