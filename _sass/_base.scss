@@ -242,10 +242,23 @@ section {
     padding: 10px;
 }
 div#one {
-    width: 70%;
+    width: 75%;
     float: left;
 }
 div#two {
-    margin-left: 70%;
+   margin-left:75%;
+}
+
+@media only screen and (min-width: 630px) {
+  /* only for screens wider or equal to 630 pixels */
+  /* code from https://www.thesitewizard.com/css/design-2-column-layout.shtml */
+  #content {
+    float: right ;
+    width: 80% ;
+  }
+  #navbar {
+    float: right;
+    width: 20%;
+  }
 }
 
