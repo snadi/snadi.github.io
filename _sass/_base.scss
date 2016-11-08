@@ -232,4 +232,20 @@ p.textblock{
 	text-align: justify;
 }
 
+	
+/**
+* http://stackoverflow.com/questions/17217766/two-divs-side-by-side-fluid-display
+**/
+section {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+div#one {
+    width: 70%;
+    float: left;
+}
+div#two {
+    margin-left: 70%;
+}
 
