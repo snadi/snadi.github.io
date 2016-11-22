@@ -10,7 +10,7 @@
 			</h2>
 			{% if post.content contains site.excerpt_separator %}
 				{{ post.content | split:site.excerpt_separator | first }}
-				<a href="{{ post.url | prepend: site.baseurl }}">Read more...</a>
+				<a href="{{ post.url | prepend: site.baseurl }}">Read more...</a><br/><br/>
 			{% else %}
 				{{ post.content }}
 			{% endif %}
