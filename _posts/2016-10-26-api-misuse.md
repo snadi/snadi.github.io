@@ -1,6 +1,6 @@
 ---
 layout: post
-title: API Misuses
+title: API Misuse Detection
 date: 2016-10-26 16:22:00
 permalink: /api-misuse
 group: research
