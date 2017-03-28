@@ -13,10 +13,20 @@ group: research
 * API misuses
 * Software maintenance and evolution
 
+<div><br/></div>
+
 # Current Research Projects #
+
+<div><br/></div>
 
 {% include filteredposts.html status="current" %}
 
-# Completed Research Projects #
+
+<div><br/></div>
+
+
+<h1 id="completed-research-projects">Completed Research Projects</h1>
+
+<div><br/></div>
 
 {% include filteredposts.html status="completed" %}
