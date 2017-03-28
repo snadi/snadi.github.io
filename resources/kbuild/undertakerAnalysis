@@ -1,0 +1,113 @@
+#!/bin/bash
+
+#pass the experiment path where all dir will be relevant to
+EXPPATH=$1
+
+BLOCK_OUTPUT_DIR=<your output dir>
+
+RELEASES="2.6.37
+2.6.38
+2.6.39
+3.0
+3.1
+3.2
+3.3
+3.4
+3.5
+3.6"
+
+cd $EXPPATH/linux
+
+mkdir -p models
+
+for release in $RELEASES
+do
+
+#just to make sure we r getting new arch names
+rm archNames.txt
+
+#checkout current release
+echo "checking out release v$release"
+git checkout -f --quiet v$release
+
+
+#find all files for analysis
+find . -wholename "./Documentation*" -prune -o -wholename "./drivers/staging*" -prune -o -wholename "./tools*" -prune -o -wholename "./scripts*" -prune -o  -name "*.[cSh]"  > undertaker-worklist
+
+#delete any results and models from previous analysis
+find . -name '*dead*' -exec rm -f {} +
+rm -f models/*
+
+#generate kconfig models
+undertaker-kconfigdump &> undertaker-kconfigdump-$release.log
+
+#move the modules files here first -- make sure to modify path according to your machine
+cp $EXPPATH/<module-items directory>/$release/modules.txt $EXPPATH/linux/modules.txt
+
+
+#change the problem in x86 arch (keep in case of old undertaker releases)
+cp models/x86.model models/x86.model.bckp
+sed 's/CONFIG_X86_EXTENDED_PLATFORM "(CONFIG_X86_64) && (CONFIG_X86_32)/CONFIG_X86_EXTENDED_PLATFORM "(CONFIG_X86_64) || (CONFIG_X86_32)/' models/x86.model.bckp > models/x86.model
+rm -f models/x86.model.bckp
+
+#generate make models, true is used to change the format of files in the generated make constraints from ./dir/file.c to FILE_dir/file.c
+#to be compatible with undertaker
+java -classpath LinuxMakeFileParser.jar -Xms1024M -Xmx2048M makefiles.Makex true &> makemodels-$release.log
+
+
+echo "regular undertaker"
+#run regular undertaker 1.3 without make constraints
+time undertaker-linux-tree > undertaker_$release.txt 2> undertaker_error_$release.txt
+
+echo "finished regular undertaker"
+
+#get file level stats statistics
+../scripts/statScripts/getFileLevelStats undertaker >> $FILE_OUTPUT_FILE
+
+#remove all B00 defects, these are not block level
+find . -name "*.B00*dead" -exec rm -f {} +
+
+
+#move regular undertaker analysis results into results dir (only move global anomalies)
+mkdir -p ../$BLOCK_OUTPUT_DIR/$release/undertakerOutput
+find . -type f -name "*globally*dead" | cpio -pdum ../$BLOCK_OUTPUT_DIR/$release/undertakerOutput/
+
+#remove all previous results
+find . -name '*dead*' -exec rm -f {} +
+
+
+#put make constraints at the end of Kconfig model
+while read arch        
+do   
+	if [ -f models/$arch.model ]
+	then
+	    grep "^FILE_" models/$arch.makemodel >> models/$arch.model 
+	fi           	       
+done < archNames.txt 
+
+echo "Running with make constraints"
+#run analysis again which now has the make constraints
+time undertaker-linux-tree > undertaker_mod_$release.txt 2> undertaker_mod_error_$release.txt
+echo "finished undertaker with make constraints"
+
+#remove all B00 defects, these are not block level
+find . -name "*.B00*dead" -exec rm -f {} +
+
+#move undertaker-mod results to output (only global)
+mkdir -p ../$BLOCK_OUTPUT_DIR/$release/undertakerModOutput
+find . -type f -name "*globally*dead" | cpio -pdum ../$BLOCK_OUTPUT_DIR/$release/undertakerModOutput/
+
+cd $EXPPATH/linux
+
+#move other stat/info files
+mv undertaker_$release.txt ../$BLOCK_OUTPUT_DIR/$release
+mv undertaker-mod_$release.txt ../$BLOCK_OUTPUT_DIR/$release
+mv undertaker_error_$release.txt ../$BLOCK_OUTPUT_DIR/$release
+mv undertaker-mod_error_$release.txt ../$BLOCK_OUTPUT_DIR/$release
+mv makemodels-$release.log ../$BLOCK_OUTPUT_DIR/$release
+
+done
+
+
+
+
