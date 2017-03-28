@@ -5,7 +5,7 @@ permalink: /research/
 group: research
 ---
 
-# Resarch Interests #
+# Resarch Interests
 
 * Empirical Software Engineering
 * Mining Software Repositories
@@ -15,7 +15,7 @@ group: research
 
 <div><br/></div>
 
-# Current Research Projects #
+# Current Research Projects
 
 <div><br/></div>
 
