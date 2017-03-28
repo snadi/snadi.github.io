@@ -5,6 +5,10 @@ permalink: /teaching/
 group: teaching
 ---
 
+## Winter 2017 ##
+
+* [CMPUT 201 - Practical Programming Methodology](https://www.ualberta.ca/computing-science/undergraduate-studies/course-directory/courses/practical-programming-methodology), University of Alberta
+
 ## Fall 2016 ##
 
 * [CMPUT 663 - Software Product Lines: Implementation, Analysis and Maintenance](https://www.ualberta.ca/computing-science/graduate-studies/course-directory/courses/software-product-lines), University of Alberta
