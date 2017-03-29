@@ -1,5 +1,5 @@
 
-<ul class="post-list">
+
 
 {% assign posts = site.posts | where: 'group',page.group | sort:'weight', 'last' %}
 {% for post in posts %}
@@ -15,8 +15,8 @@
 			{% else %}
 				{{ post.content }}	</li>
 			{% endif %}
-	
 		{% endif %}
 	{% endfor %}
 {% endfor %}
-</ul>
+
+<!-- </ul> -->

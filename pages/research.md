@@ -19,7 +19,11 @@ group: research
 
 <div><br/></div>
 
+<ul class="post-list">
+
 {% include filteredposts.html status="current" %}
+
+</ul>
 
 
 <div><br/></div>
