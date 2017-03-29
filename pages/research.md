@@ -23,8 +23,6 @@ group: research
 
 {% include filteredposts.html status="current" %}
 
-</ul>
-
 
 <div><br/></div>
 
