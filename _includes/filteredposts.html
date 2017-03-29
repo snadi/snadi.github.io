@@ -13,9 +13,9 @@
 				{{ post.content | split:site.excerpt_separator | first }} 
 				<a href="{{ post.url | prepend: site.baseurl }}">Read more...</a>
 			{% else %}
-				{{ post.content }}
+				{{ post.content }}	</li>
 			{% endif %}
-		</li>
+	
 		{% endif %}
 	{% endfor %}
 {% endfor %}
