@@ -2,10 +2,15 @@
 layout: page
 title:
 permalink: /service/
+group: service
 ---
 
 # Current #
-{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+
+<ul>
+{% include service.html %}
+</ul>
+<!-- {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
 <div>nowunix {{ nowunix}} </div>
 {% for service in site.service %}
 <div>boo</div>
@@ -17,7 +22,7 @@ permalink: /service/
 			* **Program Committee Member**, [{{service.title}}]({{service.link}})
 		{% endif %}
 	{% endif %}
-{% endfor %}
+{% endfor %} -->
 
 <!-- * **Program Committee Member**, [OOPSLA '17](http://2017.splashcon.org/track/splash-2017-OOPSLA)
 * **Program Committee Member**, [MSR '17](http://2017.msrconf.org/#/home)

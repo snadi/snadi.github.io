@@ -10,6 +10,7 @@ group: research
 * Empirical Software Engineering
 * Mining Software Repositories
 * Highly configurable software & Software Product Lines
+* Code Recommender Systems
 * API misuses
 * Software maintenance and evolution
 
@@ -17,18 +18,12 @@ group: research
 
 # Current Research Projects
 
-<div><br/></div>
-
 <ul class="post-list">
 
 {% include filteredposts.html status="current" %}
 
-
 <div><br/></div>
-
 
 <h1 id="completed-research-projects">Completed Research Projects</h1>
-
-<div><br/></div>
 
 {% include filteredposts.html status="completed" %}
