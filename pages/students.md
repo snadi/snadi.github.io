@@ -31,9 +31,7 @@ permalink: /students/
 ### PhD Students
 * [Sven Amann](http://sven-amann.de/), <i>Detecting API Misuses</i>, TU Darmstadt. (co-supervised with Mira Mezini)
 * [Ervina Cergani](http://www.stg.tu-darmstadt.de/staff/ervina_cergani/ervina_cergani.en.jsp), <i>Using Machine Learning to Improve Code Recommender Systems</i>, TU Darmstadt. (co-supervised with Mira Mezini)
-* [Sebastian Proksch](http://www.stg.tu-darmstadt.de/staff/sebastian_proksch/index.en.jsp), <i>Capturing Enriched Event Streams: Towards a General Platform for In-IDE Experiments</i>, TU Darmstadt. (co-supervised with Mira Mezini)
-
-
+* [Sebastian Proksch](http://www.stg.tu-darmstadt.de/staff/sebastian_proksch/index.en.jsp), <i>Enriched Event Streams: A General Platform For Empirical Studies On In-IDE Activities Of Software Developers</i>, TU Darmstadt. (co-supervised with Mira Mezini)
 
 
 <a name = "prev"></a>
