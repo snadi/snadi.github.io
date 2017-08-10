@@ -21,4 +21,4 @@ excerpt_separator: "<!--more-->"
 # google_site_verification: ""
 # bing_webmastertools_id: ""
 
-gems: ['jekyll-twitter-plugin']
+gems: ['jekyll-twitter-plugin','jekyll-relative-links']
