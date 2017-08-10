@@ -4,6 +4,9 @@ permalink: /teaching/
 group: teaching
 ---
 
+## Fall 2017
+* [CMPUT 663 - Software Maintenance and Reuse](cmput663-f17.md), University of Alberta
+
 ## Winter 2017
 
 * [CMPUT 201 - Practical Programming Methodology](https://www.ualberta.ca/computing-science/undergraduate-studies/course-directory/courses/practical-programming-methodology), University of Alberta
