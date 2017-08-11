@@ -5,7 +5,7 @@ group: teaching
 ---
 
 ## Fall 2017
-* [CMPUT 663 - Software Maintenance and Reuse](cmput663-f17.md), University of Alberta
+* [CMPUT 663 - Software Maintenance and Reuse](cmput663-f17), University of Alberta
 
 ## Winter 2017
 
