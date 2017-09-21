@@ -46,3 +46,5 @@ SELECT count(ticket) from defects where ticket IS NOT NULL and defects.filename 
 select COUNT(*) from ticket where id IN 
 (SELECT ticket from defects where ticket IS NOT NULL)
 ```
+
+The code used to analyze the evolution of variability anomalies in this project can be found in our [GitHub repository](https://github.com/snadi/LinuxVarAnomalyEvolution).
