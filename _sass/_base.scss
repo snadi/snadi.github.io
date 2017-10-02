@@ -235,12 +235,13 @@ font-family: 'Capita', Georgia, serif;
 **/
 section {
     width: 100%;
-    margin: auto;
+    margin: 0;
     padding: 10px;
 }
 div#one {
     width: 25%;
     float: left;
+    overflow:hidden;
 }
 div#two {
    margin-left:25%;
