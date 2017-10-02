@@ -241,7 +241,6 @@ section {
 div#one {
     width: 25%;
     float: left;
-    overflow:hidden;
 }
 div#two {
    margin-left:25%;
@@ -252,12 +251,11 @@ div#two {
   /* code from https://www.thesitewizard.com/css/design-2-column-layout.shtml */
    div#one { 
     float: none;
-//    margin-left:0;
     width:100%;  
   }
    div#two { 
     float: none;
-//    margin-right:0;
+	margin-left:0;
     width:100%;  
   }
 }
