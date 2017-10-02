@@ -21,6 +21,7 @@ permalink: /students/
 ### Undergraduate RAs
 
 * Nazim Uddin Bhuiyan
+* Imtihan Ahmad
 
 ### Master's Students 
 * [Benyamin Noori](https://www.linkedin.com/in/benyamin-noori-a58aa953/)
@@ -31,32 +32,43 @@ permalink: /students/
 ### PhD Students
 * [Sven Amann](http://sven-amann.de/), <i>Detecting API Misuses</i>, TU Darmstadt. (co-supervised with Mira Mezini)
 * [Ervina Cergani](http://www.stg.tu-darmstadt.de/staff/ervina_cergani/ervina_cergani.en.jsp), <i>Using Machine Learning to Improve Code Recommender Systems</i>, TU Darmstadt. (co-supervised with Mira Mezini)
-* [Sebastian Proksch](http://www.stg.tu-darmstadt.de/staff/sebastian_proksch/index.en.jsp), <i>Enriched Event Streams: A General Platform For Empirical Studies On In-IDE Activities Of Software Developers</i>, TU Darmstadt. (co-supervised with Mira Mezini)
+* Moein Owhadi
 
 
 <a name = "prev"></a>
 
 # Previous Students
 
+### PhD Degrees
+
+
+* [Sebastian Proksch](http://proks.ch/), TU Darmstadt, PhD (2017)  
+		Title: <i>Enriched Event Streams: A General Platform For Empirical Studies On In-IDE Activities Of Software Developers</i>, TU Darmstadt. (co-supervised with Mira Mezini)
+		Current position: Post-doctoral researcher at University of Zürich
+
 ### Master's Degrees 
-* [Marco Radavelli](http://cs.unibg.it/radavelli/), TU Darmstadt & University of Bergamo
-        MSc. (2016): *Simplifying Boolean Constraints in Highly Configurable Systems*
-        (co-supervised with Angelo Gargantini )
-        Now pursuing a PhD at University of Bergamo
+* [Marco Radavelli](http://cs.unibg.it/radavelli/), TU Darmstadt & University of Bergamo, MSc. (2016)  
+        Title: *Simplifying Boolean Constraints in Highly Configurable Systems* (co-supervised with Angelo Gargantini )  
+        Current position: pursuing a PhD at University of Bergamo
 
-* [Hamza Zulfiqar](https://www.linkedin.com/in/hamza-zulfiqar-32b94a9a/), TU Darmstadt       
-        MSc. (2016): <i>Towards Detecting Unintended Feature Interactions</i>
-        Now a software developer at Dtango, Berlin
+* [Hamza Zulfiqar](https://www.linkedin.com/in/hamza-zulfiqar-32b94a9a/), TU Darmstadt, MSc. (2016)  
+		Title: *Towards Detecting Unintended Feature Interactions*  
+        Current position: Software developer at Dtango, Berlin
 
-* David Dahlen, TU Darmstadt 
-        MSc. (2015): <i>Identification of High-Quality Answers Containing Code Snippets on Stack Overflow</i>,
-        (Co-supervised with Sven Amann and Sebastian Proksch)
-        Now a Freelance IT Consultant in Germany
+* David Dahlen, TU Darmstadt, MSc. (2015)  
+        Title: <i>Identification of High-Quality Answers Containing Code Snippets on Stack Overflow</i>
+        (Co-supervised with Sven Amann and Sebastian Proksch)  
+        Current position: IT Consultant in Germany
         
-* [Riadh Chtara](https://www.linkedin.com/in/riadh-chtara-40a13768/), <i>Feedback Driven Development of Cloud Applications</i>, 2015. (Co-supervised with Anis Charfi, SAP)
+* [Riadh Chtara](https://www.linkedin.com/in/riadh-chtara-40a13768/), TU Darmstadt, MSc. (2015)  
+		Title: <i>Feedback Driven Development of Cloud Applications</i>. (Co-supervised with Anis Charfi, SAP)  
+		Current position: Software developer at SAP in Potsdam
 
-* Isak Eriksson and Patrick Wallgren, <i>A Study of Merge-Conflict Resolutions in Open-source Software</i>, 2016. (Chalmers University of Technology, co-supervised with Thorsten Berger and Julia Rubin)
+* Isak Eriksson and Patrick Wallgren, Chalmers University of Technology, MSc. (2016).  
+		Title: <i>A Study of Merge-Conflict Resolutions in Open-source Software</i> (Co-supervised with Thorsten Berger and Julia Rubin)
 
-* Daniel Jonsonn, <i>A Case Study of Interactive Conflict-Resolution Support</i>, 2016. (Chalmers University of Technology, co-supervised with Thorsten Berger) -- Currently a systems developer at Bit Addict, Sweden
+* Daniel Jonsonn, Chalmers University of Technology, MSc. (2016).  
+		Title: <i>A Case Study of Interactive Conflict-Resolution Support</i> (Co-supervised with Thorsten Berger)  
+		Current position: Currently a systems developer at Bit Addict, Sweden
 
 
