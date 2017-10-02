@@ -263,9 +263,11 @@ ul.listing li.listing-item a {
     max-height: $profilepic-size;
     max-width:  $profilepic-size;
     
-//     @include media-query($on-palm) {
-//     	max-height: $profilepic-size * 0.5;
+    @include media-query($on-palm) {
+    	float: none;
+    	width: 100%;
+    	// max-height: $profilepic-size * 0.5;
 //         max-width:  $profilepic-size * 0.5;
-//     }
+    }
 }
 
