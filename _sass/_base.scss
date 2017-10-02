@@ -235,7 +235,7 @@ font-family: 'Capita', Georgia, serif;
 **/
 section {
     width: 100%;
-    margin: 0;
+    margin: auto;
     padding: 10px;
 }
 div#one {
@@ -247,17 +247,17 @@ div#two {
    margin-left:25%;
 }
 
-@media only screen and (min-width:630px){
+@media only screen and (max-width:800px){
   /* only for screens wider or equal to 630 pixels */
   /* code from https://www.thesitewizard.com/css/design-2-column-layout.shtml */
    div#one { 
     float: none;
-    margin-left:0;
+//    margin-left:0;
     width:100%;  
   }
    div#two { 
     float: none;
-    margin-right:0;
+//    margin-right:0;
     width:100%;  
   }
 }
