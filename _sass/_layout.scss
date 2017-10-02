@@ -265,11 +265,11 @@ ul.listing li.listing-item a {
     
     @include media-query($on-palm) {
     	float: none;
-    	//width: 80%;
+    	width: 70%;
     	margin: auto;
     	display: block;
-    	max-height: $profilepic-size * 0.5;
-		max-width:  $profilepic-size * 0.5;
+    	// max-height: $profilepic-size * 0.5;
+// 		max-width:  $profilepic-size * 0.5;
     }
 }
 
