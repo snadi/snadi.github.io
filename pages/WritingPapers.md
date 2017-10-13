@@ -6,7 +6,7 @@ permalink: /writing-papers/
 
 # Writing Academic Papers 
 
-This page lists my paper-writing preferences. It is not meant to be a golden standard in any way, and I do not claim that my preferences are the *right* way to do anything. This is primarily meant for my students -- specifically, to avoid having to repeat myself every time I start working with a new student. However, if you this information useful, or want to use a similar setup, please go ahead! I will update this as I think of more points (or maybe find strong reasons to do things in another way down the road).
+This page discusses my preferences when it comes to writing papers. It is more focused on paper structuring and collaboration, as opposed to lower-level writing tips. It is not meant to be a golden standard in any way, and I do not claim that my preferences are the *right* way to do anything. This is primarily meant for my students -- specifically, to avoid having to repeat myself every time I start working with a new student (inspired by [Claire Le Goues'](https://clairelegoues.com/2016/08/23/things-i-keep-repeating-about-writing/) post a while back). However, if you find this information useful, or want to use a similar setup, please go ahead! I will update this as I think of more points (or maybe find strong reasons to do things in another way down the road).
 
 ## Setup & Directory Structure
 
@@ -116,17 +116,17 @@ The idea is to include the other files in the `main.tex` file as needed. This is
 * When you are the only one working on the repository, there are no chances of conflicts. However, if we are both editing the paper, we should coordinate such that we are not both editing the same sections (that's why I like each section to go in a separate file). We can do this via Slack or email.
 
 
-* Before you try pulling changes into your local repository, make sure to commit your current changes first and then do `git pull --rebase`. Do the same before pushing changes. This decreases the chances of us getting unnecessary merge conflict messages and provides a cleaner history for us.
+* Before you try pulling changes into your local repository, make sure to commit your current changes first and then do `git pull --rebase`. Do the same before pushing changes. This decreases the chances of us getting unnecessary merge conflict messages and provides a cleaner history for us (i.e., no unnecessary merges).
 
 * While I have not strictly implemented this myself so far, I think it is a good idea to have each sentence in a separate line (Sebastian Proksch at TU Darmstadt, now at U. Zürich used to follow this). This makes it easier to diff versions and resolve conflicts. I will try to implement this myself going forward.
 
 
 ## Writing Style
 
-* I'm very picky about writing. I don't claim to be the world's best writer, but I have several pet peeves:
+* I don't claim to be the world's best writer, but I have several pet peeves:
 	* make sure you know when to use `the` vs. `a` vs. neither. If you find me constantly adding or removing `the`'s from your text and you don't understand what the problem is, come ask me why. Please do not just keep doing the same thing over and over again; it's frustrating for both of us.	
 	* If you have a sentence that's four lines long, it is likely confusing and hard to understand. Break it down. The more concisely you can say something the better. If you need more words, use multiple sentences. You need to take the reader through the flow of your arguments. Don't loose readers by forcing them to go back and read each sentence or paragraph twice. Make their life easier. Reviewers are already picky as it is.. don't give them another reason to shoot your paper down.
-	* To avoid typing a long list (and it's hard to remember all of them now), Claire La Goues has a good [post](https://clairelegoues.com/2016/08/23/things-i-keep-repeating-about-writing/) about writing style, which was actually at the back of my head when I wrote this. However, note how she prefers having the whole paper in one file and I don't ? -- hence, each advisor's personal preferences.
+	* To avoid typing a long list (and it's hard to remember all of them now), Claire Le Goues' [post](https://clairelegoues.com/2016/08/23/things-i-keep-repeating-about-writing/) has good tips on writing style. However, note how she prefers having the whole paper in one file and I don't ? -- hence, each advisor's personal preferences.
 
 * In general, be prepared to do multiple iterations on the paper. We might end up re-organzing things several times. Be patient and give yourself enough time ahead of the deadline for these iterations.
 	
