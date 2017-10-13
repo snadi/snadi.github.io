@@ -12,7 +12,7 @@ This page lists my paper-writing preferences. It is not meant to be a golden sta
 
 * For every new paper we work on, please create a private GitHub repository under our GitHub organization with the following name `paper-<your last name>-<name of the conference we plan to submit to>`. For example, if I was the main author of the paper and planning to submit the work to ICSE '18, I would name it `paper-nadi-icse18`. Suppose we started working on a paper, but still don't have a concrete venue in mind. In that case, use some descriptive phrase. For example, if we were working on extracting configuration constraints, the repo name would be `paper-nadi-config-constr`. *Credits:* I learned this naming strategy during my time at TU Darmstadt and found it quite useful, since typically a group's GitHub organization would have a mix of paper repos, code repos, grant repos etc. Having some fixed prefix for papers made them easier to spot.
 
-* All papers will be written using [LaTeX](https://www.latex-project.org/). If you don't know LaTeX, now is the time to learn.
+* We will write all papers using [LaTeX](https://www.latex-project.org/). If you don't know LaTeX, now is the time to learn.
 
 * If we are targetting a specific conference, make sure to get the right template for the conference. It would be such a pity to get a desk reject, because of using the wrong template! If we are not sure which conference we will target, then just use the standard [ACM](http://www.acm.org/publications/proceedings-template) or [IEEE](https://www.ieee.org/conferences_events/conferences/publishing/templates.html) template for the time being, but make sure to switch to the right one when we decide on a conference
 
@@ -20,7 +20,8 @@ This page lists my paper-writing preferences. It is not meant to be a golden sta
 
 ```
 main.tex
-ACM-Reference-Format.bstacmart.cls
+ACM-Reference-Format.bst
+acmart.cls
 sections/
 	introduction.tex
 	related-work.tex
