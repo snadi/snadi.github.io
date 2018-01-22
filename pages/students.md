@@ -69,10 +69,10 @@ permalink: /students/
 
 ### Undergraduate RAs
 
-* Nazim Uddin Bhuiyan, University of Alberta (May - December 2017)
-		Project: supporting variability in IBM OMR
-		Current position: Intern at IBM Canada
+* Nazim Uddin Bhuiyan, University of Alberta (May - December 2017).
+               Project: supporting variability in IBM OMR
+               Current position: Intern at IBM Canada
 		
 * Imtihan Ahmad, University of Alberta (September - December 2017)
-		Project: developing assignment for CMPUT 201
-		Current position: senior undergrad at UofA
+                Project: developing assignment for CMPUT 201
+                Current position: senior undergrad at UofA
