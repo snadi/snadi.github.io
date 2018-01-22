@@ -19,11 +19,6 @@ permalink: /students/
 
 # Current Students 
 
-### Undergraduate RAs
-
-* Nazim Uddin Bhuiyan
-* Imtihan Ahmad
-
 ### Master's Students 
 * [Benyamin Noori](https://www.linkedin.com/in/benyamin-noori-a58aa953/)
 * Fernando Lopez de la Mora
@@ -72,4 +67,12 @@ permalink: /students/
 		Title: <i>A Case Study of Interactive Conflict-Resolution Support</i> (Co-supervised with Thorsten Berger)  
 		Current position: Currently a systems developer at Bit Addict, Sweden
 
+### Undergraduate RAs
 
+* Nazim Uddin Bhuiyan, University of Alberta (May - December 2017)
+		Project: supporting variability in IBM OMR
+		Current position: Intern at IBM Canada
+		
+* Imtihan Ahmad, University of Alberta (September - December 2017)
+		Project: developing assignment for CMPUT 201
+		Current position: senior undergrad at UofA
