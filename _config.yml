@@ -22,3 +22,9 @@ excerpt_separator: "<!--more-->"
 # bing_webmastertools_id: ""
 
 gems: ['jekyll-relative-links']
+
+
+collections:
+  research:
+
+github: [metadata]
