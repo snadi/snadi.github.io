@@ -1,6 +1,3 @@
-- title: "Test"
-  href: "/test"
-  
 - title: "Software Maintenance & Reuse Lab"
   href: "/smr"
   subcategories:
@@ -12,6 +9,8 @@
      subhref: "/research"
    - subtitle: "Publications"
      subhref: "/publications"
+   - subtitle: "Join SMR"
+     subhref: "/join-smr"
 
 - title: "Teaching"
   href: "/teaching/"
