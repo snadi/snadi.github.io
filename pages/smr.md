@@ -30,6 +30,15 @@ The SMR lab develops automated techniques for improving software maintenance and
 * [Projects](/research)
 * [Publications](/publications)
 
+## Funding
+
+The research we do could not be possible without the support of the following funding agencies and companies:
+
+* NSERC
+* Canada Research Chairs Program
+* Samsung Global Research Outreach Program
+* IBM CAS
+
 
 <div class="emph-border">       
  If you are interested in joining SMR, please read the <a href="{{ "/join-smr" |  prepend: site.baseurl }}">following important information</a> before contacting me.
