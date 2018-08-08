@@ -7,15 +7,15 @@ permalink: /smr/
 # The Software Maintenance and Reuse (SMR) Lab
 
 
-The SMR lab develops automated techniques for improving software maintenance and resuse activities. Our work relies on mining software repositories to extract useful information that is used as a basis for providing decision support for developers. Our current projects can be summarized in the following keywords:
+The SMR lab, led by [Dr. Sarah Nadi](http://www.sarahnadi.org), develops automated techniques for improving software maintenance and resuse activities. Our work relies on mining software repositories to extract useful information that is used as a basis for providing decision support for developers. Our research can be summarized in the following keywords:
 
 ![Software Maintenance and Reuse Lab]({{ "/resources/images/logo_web_color_2400_frame_transparent.png" }}){: .group-logo } 
 
 * Empirical Software Engineering
 * Mining Software Repositories
-* Highly configurable software & Software Product Lines
 * Software Library and API usage recommendations
 * API misuses
+* Highly configurable software & Software Product Lines
 * Software maintenance and evolution
 
 ## Fun facts: 
@@ -32,7 +32,7 @@ The SMR lab develops automated techniques for improving software maintenance and
 
 ## Funding
 
-The research we do could not be possible without the support of the following funding agencies and companies:
+The research we do could not be possible without the support of the following funding agencies and industrial partners:
 
 * NSERC
 * Canada Research Chairs Program
@@ -41,5 +41,5 @@ The research we do could not be possible without the support of the following fu
 
 
 <div class="emph-border">       
- If you are interested in joining SMR, please read the <a href="{{ "/join-smr" |  prepend: site.baseurl }}">following important information</a> before contacting me.
+ If you are interested in joining SMR, please read the <a href="{{ "/join-smr" |  prepend: site.baseurl }}">following important information</a> before contacting Dr. Nadi.
  </div>

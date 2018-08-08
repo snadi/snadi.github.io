@@ -1,5 +1,14 @@
-- title: "Publications"
-  href: "/publications/"
+- title: "Software Maintenance & Reuse Lab"
+  href: "/smr"
+  subcategories:
+   - subtitle: "About"
+     subhref: "/smr"
+   - subtitle: "Members"
+     subhref: "/students"
+   - subtitle: "Research"
+     subhref: "/research"
+   - subtitle: "Publications"
+     subhref: "/publications"
 
 - title: "Teaching"
   href: "/teaching/"
@@ -7,17 +16,6 @@
 - title: "Service"
   href: "/service/"
 
-- title: "Students"
-  href: "/students/"
-
-- title: "SMR"
-  href: "/smr"
-
-
 - title: "Misc."
   href: "/misc/"
-  # subcategories:
-  #   - subtitle: "Item 1"
-  #     subhref: "/miscellany/item-1/"
-  #   - subtitle: "Item 2"
-  #     subhref: "/miscellany/item-2/"
+
