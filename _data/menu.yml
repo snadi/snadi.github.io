@@ -1,3 +1,6 @@
+- title: "Test"
+  href: "/test"
+  
 - title: "Software Maintenance & Reuse Lab"
   href: "/smr"
   subcategories:
