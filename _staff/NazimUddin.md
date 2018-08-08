@@ -1,8 +1,9 @@
 ---
-name: Nazim Uddin
-website: ""
-profile_photo_path_staff: "boy.png"
+name: Nazim Bhuiyan
+website: "https://www.linkedin.com/in/nbhuiyan1230/"
+profile_photo_path_staff: "NazimBhuiyan.png"
 position: Undergrad RA
 status: previous
-year: 2017 - 2018
+start-year: 2017
+end-year: 2018
 ---
