@@ -271,3 +271,19 @@ ul.listing li.listing-item a {
     }
 }
 
+/**
+ * Profile picture on home page
+ */
+.group-logo {
+    float: right;
+    max-height: $grouplogo-size;
+    max-width:  $grouplogo-size;
+    
+    @include media-query($on-palm) {
+    	float: none;
+    	width: 75%;
+    	margin: auto;
+    	display: block;
+    }
+}
+

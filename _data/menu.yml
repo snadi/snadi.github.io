@@ -1,6 +1,3 @@
-- title: "Research"
-  href: "/research/"
-
 - title: "Publications"
   href: "/publications/"
 
@@ -12,6 +9,9 @@
 
 - title: "Students"
   href: "/students/"
+
+- title: "SMR"
+  href: "/smr"
 
 
 - title: "Misc."
