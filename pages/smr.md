@@ -20,7 +20,7 @@ The SMR lab at the University of Alberta is located in the Computing Science Cen
 
 ## Fun facts: 
 
-* We pronounce SMR as "summer". Yes, the pun is intended for Edmonton's "warm" weather... but even though Edmonton is cold in the winter, you will find our research topics exciting and our group warm and welcoming! Check out our [photo gallery]() for pics from some of our fun group events!
+* We pronounce SMR as "summer". Yes, the pun is intended for Edmonton's "warm" weather... but even though Edmonton is cold in the winter, you will find our research topics exciting and our group warm and welcoming! Check out our [photo gallery](/smr/photo-gallery) for pics from some of our fun group events!
 
 * Our logo was designed by the talented [Sven Amann](http://sven-amann.de/)
 
