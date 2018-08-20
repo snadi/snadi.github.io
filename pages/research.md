@@ -1,7 +1,7 @@
 ---
 layout: page
 title:
-permalink: /research/
+permalink: /smr/research/
 group: research
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title:
-permalink: /join-smr/
+permalink: /smr/join-smr/
 ---
 
 <a name="prospective"></a>

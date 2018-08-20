@@ -4,9 +4,10 @@ title:
 permalink: /smr/members/
 ---
 
-# Members of the Software Maintenance and Reuse Lab 
+<!--# Members of the Software Maintenance and Reuse Lab -->
 
-![Software Maintenance and Reuse Lab]({{ "/resources/images/logo_web_color_2400_frame_transparent.png" }}){:height="200px" width="200px" align="right"}
+
+![Software Maintenance and Reuse Lab]({{ "/resources/images/logo_web_color_2400_frame_transparent.png" }}){:height="200px" width="200px" align="middle"}
 
 <div>
 <h1>Faculty Members</h1>
