@@ -3,7 +3,8 @@
 ---
 @charset "utf-8";
 
-
+@import "pictures.scss";
+@import "foundation-components/_grid.scss";
 
 // Our variables
 $base-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -34,7 +35,10 @@ $on-laptop:        800px;
 
 
 // Picture profile
-$profilepic-size:  250px;
+$profilepic-size:  230px;
+
+// Group logo
+$grouplogo-size:  350px;
 
 // Header
 $header-height:		40px;

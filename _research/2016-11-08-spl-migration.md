@@ -3,7 +3,6 @@ layout: post
 title: SPL Migration
 date: 2016-10-26 16:22:00
 permalink: /spl-migration
-group: research
 tags: current
 weight: 3
 ---
