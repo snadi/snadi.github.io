@@ -27,8 +27,8 @@ The SMR lab at the University of Alberta is located in the Computing Science Cen
 ## Group Information
 
 * [Members](/smr/members)
-* [Projects](/research)
-* [Publications](/publications)
+* [Projects](/smr/research)
+* [Publications](/smr/publications)
 
 ## Funding
 
