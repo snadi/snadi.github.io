@@ -25,8 +25,9 @@ images:
     .image-gallery img {width:500px;}
 </style>
 
+{% for image in page.images %}
 <div class="image-gallery">
-  {% for image in page.images %}
+  
     <figure>
     <a href= "{{ image.image_path }}">
         <img src="{{ image.image_path }}" alt="{{ image.title}}"/>
@@ -35,5 +36,6 @@ images:
         {{ image.title }}
     </figcaption>
     </figure>
-  {% endfor %}
+
 </div>
+  {% endfor %}
