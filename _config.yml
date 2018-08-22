@@ -24,7 +24,7 @@ excerpt_separator: "<!--more-->"
 # google_site_verification: ""
 # bing_webmastertools_id: ""
 
-gems: ['jekyll-relative-links']
+gems: ['jekyll-relative-links', jekyll-photo-gallery]
 
 
 collections:
@@ -33,3 +33,7 @@ collections:
     output: true
 
 github: [metadata]
+
+photo_gallery:
+    path: /resources/gallery/
+    thumbnail_size: 256
