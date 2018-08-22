@@ -34,6 +34,14 @@ collections:
 
 github: [metadata]
 
-photo_gallery:
-    path: /resources/gallery/
-    thumbnail_size: 256
+#Jekyll-Photo-Gallery Settings
+exiftag:
+ sources:
+   - resources/gallery/ #Set to location of photos
+
+#MiniMagick
+#https://github.com/zroger/jekyll-minimagick
+mini_magick:
+    photography:
+        source: resources/gallery/
+        resize: "1280x720"
