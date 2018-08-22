@@ -41,5 +41,5 @@ The research we do could not be possible without the support of the following fu
 
 
 <div class="emph-border">       
- If you are interested in joining SMR, please read the <a href="{{ "/join-smr" |  prepend: site.baseurl }}">following important information</a> before contacting Dr. Nadi.
+ If you are interested in joining SMR, please read the <a href="{{ "/smr/join-smr" |  prepend: site.baseurl }}">following important information</a> before contacting Dr. Nadi.
  </div>
