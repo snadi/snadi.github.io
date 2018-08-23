@@ -8,7 +8,7 @@ permalink: /smr/join-smr/
 
 # Interested in Joining SMR?
 
-The following information is important for perspective students.
+The following information is important for prospective students.
 
 ![Software Maintenance and Reuse Lab]({{ "/resources/images/logo_web_color_2400_frame_transparent.png" }}){: .group-logo } 
 
