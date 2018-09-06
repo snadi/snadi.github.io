@@ -2,7 +2,7 @@
 layout: post
 title: Reverse-engineering Configuration Constraints
 date: 2016-10-26 16:37:00
-permalink: /config-constraints/
+permalink: /smr/config-constraints/
 group: research
 tags: completed
 weight: 1

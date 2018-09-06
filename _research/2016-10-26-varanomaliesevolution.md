@@ -2,7 +2,7 @@
 layout: post
 title: Identifying Causes and Fixes of Linux Variability Anomalies
 date: 2016-10-26 16:37:00
-permalink: /varanomaliesevolution/
+permalink: /smr/varanomaliesevolution/
 group: research
 tags: completed
 weight: 2

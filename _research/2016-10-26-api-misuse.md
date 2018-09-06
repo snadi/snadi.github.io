@@ -2,7 +2,7 @@
 layout: post
 title: API Misuse Detection
 date: 2016-10-26 16:22:00
-permalink: /api-misuse
+permalink: /smr/api-misuse/
 group: research
 tags: current
 weight: 3

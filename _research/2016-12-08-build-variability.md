@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Analyzing Linux Kbuild to Detect Variability Anomalies
-permalink: /kbuildvariability/
+permalink: /smr/kbuildvariability/
 group: research
 tags: completed
 weight: 2

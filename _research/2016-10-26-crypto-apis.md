@@ -2,7 +2,7 @@
 layout: post
 title: Cryptography APIs
 date: 2016-10-26 16:37:00
-permalink: /crypto-apis/
+permalink: /smr/crypto-apis/
 group: research
 tags: current
 weight: 4

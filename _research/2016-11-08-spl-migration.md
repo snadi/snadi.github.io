@@ -2,7 +2,7 @@
 layout: post
 title: SPL Migration
 date: 2016-10-26 16:22:00
-permalink: /spl-migration
+permalink: /smr/spl-migration
 tags: current
 weight: 3
 ---

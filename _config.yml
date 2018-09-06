@@ -29,6 +29,7 @@ gems: ['jekyll-relative-links', jekyll-photo-gallery]
 
 collections:
   research:
+    output: true
   staff:
     output: true
 
