@@ -1,6 +1,6 @@
 <div class="row">
 
-	{% if member.status == 'previous' %}
+	{% if include.status == 'previous' %}
 		{% assign alumini = (site.staff | where: 'status','previous' | sort:'end-year', 'last') | reverse %}
 
 		<div class="row" >
