@@ -255,35 +255,4 @@ ul.listing li.listing-item a {
 	font-family: 'Titillium Web', sans-serif;
 }
 
-/**
- * Profile picture on home page
- */
-.profile-home {
-    float: left;
-    max-height: $profilepic-size;
-    max-width:  $profilepic-size;
-    
-    @include media-query($on-palm) {
-    	float: none;
-    	width: 60%;
-    	margin: auto;
-    	display: block;
-    }
-}
-
-/**
- * Profile picture on home page
- */
-.group-logo {
-    float: right;
-    max-height: $grouplogo-size;
-    max-width:  $grouplogo-size;
-    
-    @include media-query($on-palm) {
-    	float: none;
-    	width: 75%;
-    	margin: auto;
-    	display: block;
-    }
-}
 

@@ -209,7 +209,9 @@ pre {
     }
 }
 
-//announcement box
+/**
+ * Icons
+ */
 .emph-border {
     background-color:#F8F5F4;
 	width:90%;
@@ -219,7 +221,10 @@ pre {
     text-align: center;
 }
 
-	
+
+/**
+ * Two page column for main page
+ */	
 /**
 * http://stackoverflow.com/questions/17217766/two-divs-side-by-side-fluid-display
 **/
@@ -254,5 +259,37 @@ div#twitter {
     width: 30%;
     height: 300px;
     margin: auto;
+}
+
+/**
+ * Profile picture on home page
+ */
+.profile-home {
+    float: left;
+    max-height: $profilepic-size;
+    max-width:  $profilepic-size;
+    
+    @include media-query($on-palm) {
+    	float: none;
+    	width: 60%;
+    	margin: auto;
+    	display: block;
+    }
+}
+
+/**
+ * SMR Logo
+ */
+.group-logo {
+    float: right;
+    max-height: $grouplogo-size;
+    max-width:  $grouplogo-size;
+    
+    @include media-query($on-palm) {
+    	float: none;
+    	width: 75%;
+    	margin: auto;
+    	display: block;
+    }
 }
 
