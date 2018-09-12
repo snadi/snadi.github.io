@@ -1,11 +1,10 @@
-<div class="row">
-
+<div class="grid" >
+	
 	{% if include.status == 'previous' %}
 		{% assign alumini = (site.staff | where: 'status','previous' | sort:'end-year', 'last') | reverse %}
 
-		<div class="row" >
 			{% for member in alumini %}
-				<div class="medium-3 columns" >
+				<div class="member" >
 
 					<figure>
 						<img src="{{ site.baseurl }}/staff/image/{{ member.profile_photo_path_staff }}"  class="members"  >
@@ -19,13 +18,12 @@
 
 				</div>
 
-			{% endfor %}
-		</div>
+			{% endfor %}		
 	{% else %}
 		{% for member in site.staff %}
 			{% if member.position == include.position and member.status == include.status %}
 
-				<div class="medium-3 columns">
+				<div class="member">
 
 					<figure>
 						<img src="{{ site.baseurl }}/staff/image/{{ member.profile_photo_path_staff }}"  class="members"  >
@@ -34,6 +32,7 @@
 							<a href="{{member.website }}" target="_blank">{{ member.name }}</a>
 						</figcaption>
 					</figure>
+
 				</div>
 
 			{% endif %}    

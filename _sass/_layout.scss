@@ -88,5 +88,23 @@ html {
 }
 
 
+/**
+* members page
+**/
+.grid {
+// 	float: left;
+}
 
+.grid:before, .grid:after {
+  display: table;
+  content: " ";
+}
 
+.grid:after {
+  clear: both;
+}
+
+.member {
+	width: 25%;
+	display: inline-block;
+}
