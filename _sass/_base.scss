@@ -48,11 +48,21 @@ img {
     vertical-align: middle;
 }
 
+img.members {
+     width:150px;
+     height:150px;
+}
+
 
 
 /**
  * Figures
  */
+ 
+figure {
+  text-align: center;
+}
+
 figure > img {
     display: block;
     margin: 0 auto;
@@ -77,6 +87,33 @@ li {
          margin-bottom: 0;
     }
 }
+
+ul.listing {
+	list-style-type: none;
+	margin-left: 0px;
+}
+
+ul.listing li.listing-seperator {
+	padding-top: 15px;
+	font-weight: bold;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.17em;
+}
+
+ul.listing li.listing-item time {
+
+	color: #333;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding-right: 10px;
+}
+
+ul.listing li.listing-item a {
+	color: $clemson-purple;
+	font-weight: 400;
+	font-family: 'Titillium Web', sans-serif;
+}
+
 
 
 
@@ -209,18 +246,9 @@ pre {
     }
 }
 
-
-
-a.tosu {
-color: #b00000;
-background: #f5f5f5;
-text-decoration: none;
- padding: 2px; 
- font-weight: 600; 
-font-family: 'Capita', Georgia, serif;
-}
-
-//announcement box
+/**
+ * Icons
+ */
 .emph-border {
     background-color:#F8F5F4;
 	width:90%;
@@ -230,7 +258,10 @@ font-family: 'Capita', Georgia, serif;
     text-align: center;
 }
 
-	
+
+/**
+ * Two page column for main page
+ */	
 /**
 * http://stackoverflow.com/questions/17217766/two-divs-side-by-side-fluid-display
 **/
@@ -265,5 +296,37 @@ div#twitter {
     width: 30%;
     height: 300px;
     margin: auto;
+}
+
+/**
+ * Profile picture on home page
+ */
+.profile-home {
+    float: left;
+    max-height: $profilepic-size;
+    max-width:  $profilepic-size;
+    
+    @include media-query($on-palm) {
+    	float: none;
+    	width: 60%;
+    	margin: auto;
+    	display: block;
+    }
+}
+
+/**
+ * SMR Logo
+ */
+.group-logo {
+    float: right;
+    max-height: $grouplogo-size;
+    max-width:  $grouplogo-size;
+    
+    @include media-query($on-palm) {
+    	float: none;
+    	width: 75%;
+    	margin: auto;
+    	display: block;
+    }
 }
 
