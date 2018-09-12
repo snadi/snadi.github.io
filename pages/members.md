@@ -9,96 +9,28 @@ permalink: /smr/members/
 
 <h3>Faculty Members</h3>
 
-<div class="row">
-	{% for member in site.staff %}
-		{% if member.role == "Faculty" %}
-
-		<div class="medium-3 columns">
-
-			<figure>
-				<img src="{{ site.baseurl }}/staff/image/{{ member.profile_photo_path_staff }}"  class="members"  >
-
-				<figcaption>
-					<a href="{{member.website }}" target="_blank">{{ member.name }}</a>
-				</figcaption>
-			</figure>
-		</div>
-
-		{% endif %}    
-	{% endfor %}
-</div>
+{% include filteredmembers-status.html position="Faculty" status="current" %}
 
 <br/>
 
 
 <h3>Current PhD Students</h3>
 
-<div class="row">
-	{% for member in site.staff %}
+{% include filteredmembers-status.html position="PhD" status="current" %} 
 
-		{% if member.position=="PhD" and member.status=="current"%}
-
-			<div class="medium-3 columns"  >
-
-				<figure>
-				<img src="{{ site.baseurl }}/staff/image/{{ member.profile_photo_path_staff }}"  class="members"  >
-
-				<figcaption>
-				<a href="{{member.website }}" target="_blank">{{ member.name }}</a>
-				</figcaption>
-				</figure>
-			</div>
-		{% endif %}    
-
-	{% endfor %}
-</div>
-
-
+<br/>
 
 <h3>Current Master's Students</h3>
 
-<div class="row" >
-	{% for member in site.staff %}
+{% include filteredmembers-status.html position="MSc." status="current" %} 
 
-		{% if member.position=="MSc." and member.status=="current" %}
-
-			<div class="medium-3 columns"  >
-
-				<figure>
-				<img src="{{ site.baseurl }}/staff/image/{{ member.profile_photo_path_staff }}"  class="members"  >
-
-				<figcaption>
-				<a href="{{member.website }}" target="_blank">{{ member.name }}</a>
-				</figcaption>
-				</figure>
-			</div>
-		{% endif %}    
-
-	{% endfor %}
-</div>
-
-<div class="row" >
-<h3> Current Undergraduate Students</h3>
 <br/>
-{% for member in site.staff %}
 
-{% if member.position=="Undergrad RA" and member.status=="current" %}
+<h3> Current Undergraduate Students</h3>
 
-<div class="medium-3 columns" >
+{% include filteredmembers-status.html position="Undergrad RA" status="current" %} 
 
-<figure>
-<img src="{{ site.baseurl }}/staff/image/{{ member.profile_photo_path_staff }}"  class="members"  >
-
-<figcaption>
-<a href="{{member.website }}" target="_blank">{{ member.name }}</a>
-</figcaption>
-</figure>
-
-</div>
-{% endif %}    
-
-{% endfor %}
-</div>
+<br/>
 
 
 <h3>SMR Alumni </h3>
