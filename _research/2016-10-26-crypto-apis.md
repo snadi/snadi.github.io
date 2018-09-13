@@ -15,6 +15,12 @@ We are currently using Clafer as a modeling language and investigating its abili
 key: crypto-apis
 img: /resources/images/crypto.png
 related-urls:
+   - title: CogniCrypt
+     url: https://projects.eclipse.org/proposals/eclipse-cognicrypt
+funding:
+   - name: CROSSING
+     url: https://www.crossing.tu-darmstadt.de/crc_1119/index.en.jsp
+     img: /resources/images/crossing.jpg
 ---
 
 {% include project-details.html page=page %}
