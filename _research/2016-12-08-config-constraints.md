@@ -11,8 +11,9 @@ long-desc: "One of the challenges of developing and maintaining highly configura
 
 We also conduct a qualitative study to understand the sources of the remaining constraints. This was by manually analyzing the non-recovered constraints, interviewing 27 developers through phone interviews and online questionnaires, as well as additional automated analysis that counts certain phenomenon. By analyzing the data from these different sources, we find that configuration constraints are enforced mainly for four reasons: (1) enforcing low-level code dependencies, (2) ensuring correct run-time behavior, (3) improving the user’s configuration experience, and (4) preventing corner cases. The classification suggests that while automated tools can potentially extract almost half of the enforced configuration constraints, other constraints require testing or domain knowledge limiting the completeness of automated tools."
 
-key: lib-use
+key: config-constraints
 img: /resources/images/lib-comparison.png
+pubs: NadiTSE2015,NadiICSE2014
 related-urls:
    - title: Online appendix
      url: http://gsd.uwaterloo.ca/farce

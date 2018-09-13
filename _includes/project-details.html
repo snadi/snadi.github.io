@@ -17,6 +17,17 @@
     </div>
 </div>
 
+{% if page.pubs %}
+<h2>Related Publications</h2>
+<ul>
+    {% assign papers = page.pubs | split: "," %}
+    {% for pub in papers %}
+        {% assign paper = site.data.bibliography | where: "id",pub | first %}
+        <li><a href="{{ paper.pdf }}" target="_blank">{{ paper.title }}</a>, {{ paper.collection-title }}</li>
+    {% endfor %}
+</ul>
+
+{% endif %}
 
 {% if page.related-urls %}
 

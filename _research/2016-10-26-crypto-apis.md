@@ -14,6 +14,7 @@ Through analyzing StackOverflow posts, GitHub repositories, and conducting two s
 We are currently using Clafer as a modeling language and investigating its ability to successfully model cryptography components. The variability model we are developing will be used as a part of a software product line solution for automatically generating code snippets corresponding to common cryptography tasks. Thus, application developers can select the tasks they need (e.g., store password) and configure components according to their needs before getting the corresponding code snippet."
 key: crypto-apis
 img: /resources/images/crypto.png
+pubs: KruegerASE17,NadiICSE2016,NADIVamos16,ArztOnward2015
 related-urls:
    - title: CogniCrypt
      url: https://projects.eclipse.org/proposals/eclipse-cognicrypt

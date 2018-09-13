@@ -1,0 +1,294 @@
+- id: ProkschSANER17
+  authors: Sebastian Proksch, Sarah Nadi, Sven Amann, and Mira Mezini
+  title: Enriching In-IDE Process Information with Fine-grained Source Code History
+  year: 2017
+  venue: IEEE International Conference on Software Analysis, Evolution, and Reengineering
+  collection-title: SANER '17
+  pdf: /resources/pubs/ProkschSANER17.pdf
+
+- id: ProkschASE2016
+  authors: Sebastian Proksch, Sven Amann, Sarah Nadi, and Mira Mezini
+  title: "Evaluating the Evaluations of Code Recommender Systems: A Reality Check"
+  year: 2016
+  venue: IEEE/ACM International Conference on Automated Software Engineering
+  collection-title: ASE '16
+  pdf: /resources/pubs/ProkschASE2016.pdf
+
+
+- id: CerganiSWAN16
+  authors: Ervina Cergani, Sebastian Proksch, Sarah Nadi, and Mira Mezini
+  title: Addressing Scalability in API Method Call Analytics
+  year: 2016
+  venue: International Workshop on Software Analytics
+  collection-title: SWAN '16
+  pdf: /resources/pubs/CerganiSWAN16.pdf
+
+- id: AmannICPC16
+  authors: Sven Amann, Sebastian Proksch, and Sarah Nadi}
+  title: "FeedBaG: An Interaction Tracker for Visual Studio"
+  year: 2016
+  venue: International Conference on Program Comprehension -- Tool Track 
+  collection-title: ICPC '16
+  pdf: /resources/pubs/AmannICPC16.pdf
+
+- id: NadiICSE2016
+  authors: Sarah Nadi, Stefan Krüger, Mira Mezini, and Eric Bodden
+  title: "Jumping Throuh Hoops: Why do Java Developers Struggle with Cryptography APIs"
+  year: 2016
+  venue: International Conference on Software Engineering
+  collection-title: ICSE '16
+  pdf: /resources/pubs/NadiICSE2016.pdf
+  slides: https://www.slideshare.net/sarah_nadi/why-java-developers-struggle-with-cryptography-apis
+
+- id: NADIVamos16
+  authors: Sarah Nadi and Stefan Krüger
+  title: Variability Modeling of Cryptographic Components (Clafer Experience Report)
+  year: 2016
+  venue: International Workshop on Variability Modelling of Software-intensive Systems
+  collection-title: VaMoS '16
+  pdf: /resources/pubs/NADIVamos16.pdf
+
+- id: AmannSANER16
+  authors: Sven Amann, Sebastian Proksch, Sarah Nadi, and Mira Mezini
+  title: A Study of Visual Studio Usage in Practice
+  year: 2016
+  venue: IEEE International Conference on Software Analysis, Evolution, and Reengineering
+  collection-title: SANER '16
+  pdf: /resources/pubs/AmannSANER16.pdf
+
+- id: AmannMSR16
+  authors: Sven Amann, Sarah Nadi, Hoan A. Nguyen, Tien N. Nguyen, and Mira Mezini 
+  title: "MUBench: A Benchmark for API-Misuse Detectors"
+  year: 2016
+  venue: International Conference on Mining Software Repositories -- Data Showcase Track
+  collection-title: MSR '16
+  pdf: /resources/pubs/AmannMSR16.pdf
+
+- id: ProkschMSR16
+  authors: Sebastian Proksch, Sven Amann, Sarah Nadi, and Mira Mezini
+  title: A Dataset of Simplified Syntax Trees for C#
+  year: 2016
+  venue: International Conference on Mining Software Repositories -- Data Showcase Track
+  collection-title: MSR '16
+  pdf: /resources/pubs/ProkschMSR16.pdf
+
+- id: SoaresVaMoS18
+  authors: Larissa Rocha Soares, Jens Meinicke, Sarah Nadi, Christian Kästner, and Eduardo Santana de Almeida
+  title: "VarXplorer: Lightweight Process for Dynamic Inspection of Feature Interactions"
+  year: 2018
+  venue: International Workshop on Variability Modelling of Software-Intensive Systems
+  collection-title: VaMoS '18
+
+- id: KruegerASE17
+  authors: Stefan Krüger and Sarah Nadi and Michael Reif and Karim Ali and Mira Mezini and Eric Bodden and Florian Göpfert and Felix Günther and Christian Weinert and Daniel Demmler and Ram Kamath
+  title: "CogniCrypt: Supporting Developers in using Cryptography"
+  year: 2017
+  venue: IEEE/ACM International Conference on Automated Software Engineering -- Tool Demo Track
+  collection-title: ASE '17
+  pdf: /resources/pubs/KruegerASE17.pdf
+
+- id: AlMasriCASCON17
+  authors: Samer Al Masri, Nazim Uddin Bhuiyan, Sarah Nadi, and Matthew Gaudet
+  title: "Software Variability Through C++ Static Polymorphsim: A Case Study of Challenges and Open Problems in Eclipse OMR"
+  year: 2017
+  venue: International Conference on Computer Science and Software Engineering
+  collection-title: CASCON '17
+  pdf: /resources/pubs/AlMasricASCON17.pdf
+
+- id: SalvaneschiTSE17
+  authors: Guido Salvaneschi, Sebastian Proksch, Sven Amann,  Sarah Nadi, and Mira Mezini
+  title: "On the Positive Effect of Reactive Programming on Software Comprehension: An Empirical Study"
+  year: 2017
+  venue: IEEE Transactions on Software Engineering
+  collection-title: TSE '17
+  pdf: /resources/pubs/SalvaneschiTSE17.pdf
+
+- id: LopezdelaMoraICSENIER18
+  authors: Fernando Lopez de la Mora and Sarah Nadi
+  title: Which library should I use? A metric-based comparison of software libraries
+  year: 2018
+  venue: International Conference on Software Engineering New Ideas and Emerging Results Track
+  collection-title: ICSE NIER '18
+  pdf: /resources/pubs/LopezdelaMoraICSENIER18.pdf
+
+
+- id: MahmoudiMSR18
+  authors: Mehran Mahmoudi and Sarah Nadi
+  title: "The Android Update Problem: An Empirical Study"
+  year: 2018
+  venue: International Conference on Mining Software Repositories
+  collection-title: MSR '18
+
+- id: AmannTSE18
+  authors: Sven Amann, Hoan A. Nguyen, Sarah Nadi, Tien N. Nguyen, and Mira Mezini
+  title: A Systematic Evaluation of Static API-Misuse Detectors
+  year: 2018
+  venue: TSE '18
+  collection-title: AmannTSE18
+
+- id: BusingeICSEM18
+  authors: John Businge, Openja Moses, Sarah Nadi, Engineer Bainomugisha, and Thorsten Berger}
+  title: Clone-Based Variability Management in the Android Ecosystem
+  year: 2018
+  venue: International Conference on Software Maintenance and Evolution -- Industry Track
+  collection-title: ICSME '18
+
+- id: ALMasriSPLC18
+  authors: Samer Al Masri, Sarah Nadi, Matthew Gaudet, Xiaoli Liang and Robert W. Young
+  title: "Using Static Analysis to Support Variability Implementation Decisions in C++"
+  year: 2018
+  venue: International Systems and Software Product Line Conference -- Industrial Track
+  collection-title: SPLC '18
+  pdf: /resources/pubs/ALMasriSPLC18.pdf
+
+- id: LopezDeLaMoraPROMISE18
+  authors: Fernando Lopez de la Mora and Sarah Nadi
+  title: An Empirical Study of Metric-based Comparisons of Software Libraries
+  year: 2018
+  venue: International Conference on Predictive Models and Data Analytics in Software Engineering
+  collection-title: PROMISE '18
+
+- id: ArztOnward2015
+  type: paper-conference
+  authors: Steven Arzt, Sarah Nadi, Karim Ali, Eric Bodden, Sebastian Erdweg, and Mira Mezini
+  year: 2015
+  title: Towards secure integration of cryptographic software
+  venue: SIGPLAN symposium on new ideas in programming
+    and reflections on software at splash
+  collection-title: ONWARD! ’15
+  pdf: /resources/pubs/ArztOnward2015.pdf
+  slides: https://www.slideshare.net/sarah_nadi/onward15
+
+- id: Medeiros2015
+  type: paper-conference
+  authors: Flávio Medeiros, Christian Kästner, Márcio Ribeiro, Sarah Nadi, and Rohit Gheyi
+  year: 2015
+  title: "The love/hate relationship with the c preprocessor: An interview study"
+  venue: European conference on object-oriented programming
+  collection-title: ECOOP ’15
+  pages: 999-1022
+
+- id: NadiTSE2015
+  type: article-journal
+  authors: Sarah Nadi, Thorsten Berger, Christian Kästner, and Krzysztof Czarnecki
+  year: 2015
+  title: Where do configuration constraints stem from? An extraction approach and
+    an empirical study
+  venue: IEEE Transactions on Software Engineering
+  collection-title: TSE '15
+  page: 820 - 841
+  volume: 99
+  pdf: /resources/pubs/NadiTSE2015.pdf
+
+- id: NadiICSE2014
+  type: paper-conference
+  authors: Sarah Nadi, Thorsten Berger, Christian Kästner, and Krzysztof Czarnecki
+  year: 2014
+  title: "Mining configuration constraints: Static analyses and empirical results"
+  venue: International conference on software engineering
+  collection-title: ICSE ’14
+  page: 140 - 151
+  pdf: /resources/pubs/NadiICSE2014.pdf
+
+- id: NadiWCRE2011
+  type: paper-conference
+  author: Sarah Nadi and Richarc C. Holt
+  year: 2011
+  title: 'Make it or break it: Mining anomalies from linux kbuild'
+  container-title: Working conference on reverse engineering
+  collection-title: WCRE ’11
+  page: '315-324'
+  pdf: /resources/pubs/NadiWCRE2011.pdf
+
+- id: NadiCSMR2012
+  type: paper-conference
+  author: Sarah Nadi and Richard C. Holt
+  year: 2012
+  title: Mining kbuild to detect variability anomalies in linux
+  container-title: European conference on software maintenance
+    and reengineering
+  collection-title: CSMR ’12
+  page: '107-116'
+  pdf: /resources/pubs/NadiCSMR2012.pdf
+
+- id: NadiCSMR2010
+  type: paper-conference
+  author: Sarah Nadi, Richard C. Holt, and Serge Mankovskii
+  year: 2010
+  title: Does the past say it all? Using history to predict change sets in a cmdb
+  venue: European conference on software maintenance and reengineering
+  collection-title: CSMR ’10
+  page: '97-106'
+  pdf: /resources/pubs/NadiCSMR2010.pdf
+
+- id: NadiCASCON2009
+  type: paper-conference
+  author: Sarah Nadi, Richard C. Holt, Ian Davis, and Serge Mankovskii
+  year: 2009
+  title: 'DRACA: Decision support for root cause analysis and change impact analysis for CMDBs'
+  title-short: DRACA
+  container-title: Cnference of the center for advanced studies on collaborative research
+  collection-title: CASCON ’09
+  page: '1-11'
+
+- id: HemmatiMSR2013
+  type: paper-conference
+  author: Hadi Hemmati, Sarah Nadi, Olga Baysal, Oleksii Kononenko, Wei Wang, Reid Holmes, and Michael W. Godfrey
+  year: 2013
+  title: 'The MSR cookbook: Mining a decade of research'
+  venue: Working conference on mining software repositories
+  collection-title: MSR ’13
+  page: '343-352'
+  pdf: /resources/pubs/HemmatiMSR2013.pdf
+
+- id: NadiMSR2013
+  type: paper-conference
+  author: Sarah Nadi, Christian Dietrich, Reinhard Tartler, Richard C. Holt, and Daniel Lohmann
+  year: 2013
+  title: 'Linux variability anomalies: What causes them and how do they get fixed?'
+  venue: working conference on mining software repositories
+  collection-title: MSR ’13
+  page: '111-120'
+  pdf: /resources/pubs/NadiMSR2013.pdf
+
+- id: ZhouReleng2015
+  type: workshop
+  author: Shurui Zhou, Jafar Al-Kofahi, Tien N. Nguyen, Christian Kästner, and Sarah Nadi
+  year: 2015
+  title: Extracting configuration knowledge from build files with symbolic analysis
+  publisher: International Workshop on Release Engineering
+  collection-title: RELENG '15
+  pdf: /resources/pubs/ZhouReleng2015.pdf
+
+- id: NadiDS2013
+  type: extra
+  author: Sarah Nadi
+  year: 2013
+  title: A study of variability spaces in open source software
+  collection-title: ICSE ’13
+  venue: International Conference on Software Engineering -- Doctoral Symposium
+  pages: '1353–1356'
+  pdf: /resources/pubs/NadiDS2013.pdf
+
+- id: NadiJournal2013
+  type: article-journal
+  author: Sarah Nadi and Richard C. Holt
+  year: 2013
+  title: 'The linux kernel: A case study of build system variability'
+  container-title: 'Journal of Software: Evolution and Process'
+  page: '730-746'
+  volume: '26'
+  issue: '8'
+  pdf: /resources/pubs/NadiJournal2013.pdf
+
+
+- id: AlyPervasive2008
+  type: article-journal
+  author: Sherif G. Aly, Sarah Nadi, and Karim Hamdan
+  year: 2008
+  title: A java-based programming language support of location management in pervasive systems
+  container-title: IJCSNS '08
+  venue: International Journal of Computer Science and Network Security
+  page: '329-336'
+  volume: '8'
+  issue: '6'
