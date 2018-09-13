@@ -108,3 +108,74 @@ html {
 	width: 25%;
 	display: inline-block;
 }
+
+/** 
+* Project Descriptions
+**/
+/**
+ * Row layout
+ */
+.row {
+	margin-bottom: $base-font-size;
+}
+
+.row:before, .row:after {
+  display: table;
+  content: " ";
+}
+
+.row:after {
+  clear: both;
+}
+
+.row-pic-left, .row-info {
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+}
+
+.row-pic-left {
+  > img {
+    width: 140px;
+    display: inline-block;
+    height: auto;
+    padding: 4px;
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    border-radius: 5%;
+    box-sizing: border-box;
+  }
+
+  width: 25%;
+  float: left;
+}
+
+.row-pic, .row-info {
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  position: relative;
+  float: right;
+}
+
+.row-pic {
+  > img {
+    width: 140px;
+    display: inline-block;
+    height: auto;
+    padding: 4px;
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    border-radius: 5%;
+    box-sizing: border-box;
+  }
+
+  width: 25%;
+  float: right;
+}
+
+.row-info {
+  width: 75%;
+}
