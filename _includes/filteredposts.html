@@ -1,6 +1,4 @@
 
-
-
 {% assign projects = site.research | where: 'group',page.group | sort:'weight', 'last' %}
 {% for project in projects %}
 	{% for tag in project.tags %}

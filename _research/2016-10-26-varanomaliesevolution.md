@@ -6,7 +6,11 @@ permalink: /smr/varanomaliesevolution/
 group: research
 tags: completed
 weight: 2
+short-desc: In order to prevent variability anomalies from occurring in the first place, we need to understand what causes them. In order to provide automated solutions for such anomalies, we need to understand how developers usually fix them. This project mines commit information from Linux's git repository in order to identify causes and fixes of variability anomalies.
+img: /resources/images/var-anomalies.png
 ---
+
+<h1>{{ page.title }}</h1>
 
 In order to prevent variability anomalies from occurring in the first place, we need to understand what causes them. In order to provide automated solutions for such anomalies, we need to understand how developers usually fix them. This project mines commit information from Linux's git repository in order to identify causes and fixes of variability anomalies.<!--more--> Our results show that variability anomalies are often introduced through incomplete patches that change Kconfig definitions without properly propagating these changes to the rest of the system. Anomalies are then commonly fixed through changes to the code rather than to Kconfig files. For more details, read our [MSR'13](/resources/pubs/NADI_MSR_2013.pdf) paper.
 

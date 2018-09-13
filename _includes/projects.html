@@ -1,0 +1,26 @@
+<!-- Credits: Karim Ali (https://github.com/karimhamdanali/karimhamdanali.github.io) -->
+
+{% assign projects = site.research | where: 'group',page.group | sort:'weight', 'last' %}
+
+<!-- extra div needed for some reason. Otherwise, shows html code in a code snippet -->
+<div>
+{% for project in projects %}
+  {% for tag in project.tags %}
+    {% if include.status == tag %}
+      <div class="row" name="{{ project.key }}">
+        <div class="row-pic">
+          <img alt="{{ project.title }}" src="{{ project.img }}" />
+        </div>
+        <div class="row-info">
+          <h4>
+            <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+          </h4>
+          <p>
+            {{ project.short-desc }}
+          </p>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}  
+{% endfor %}
+</div>
