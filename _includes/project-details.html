@@ -1,0 +1,51 @@
+{% assign page=include.page %}
+
+<h1>{{ page.title }}</h1>
+
+<div class="row" name="{{ project.key }}">
+    <div class="row-pic-left">
+      <img alt="{{ page.title }}" src="{{ page.img }}" />
+    </div>
+    <div class="row-info">
+      <p>
+        {% if page.long-desc %}
+            {{ page.long-desc }}
+        {% else %}
+            {{ page.short-desc }}
+        {% endif %}
+      </p>
+    </div>
+</div>
+
+
+<h2>Related Resources</h2>
+
+<ul>
+    {% for url in page.related-urls %}
+        <li><a href="{{ url.url }}">{{ url.title }}</a></li>
+    {% endfor %}
+</ul>
+
+
+<h2>Project Members</h2>
+
+{% include filteredmembers.html project=page.key %}
+
+
+{% if page.funding %}
+
+<h2>Funding Sources</h2>
+<div>
+<table>
+    <tr>
+    {% for source in page.funding %}
+        {% if source.img %}
+            <td><a href="{{ source.url }}"><img class="profile-home" src="{{ source.img }}" alt="{{ source.name }}" /></a></td>
+        {% else %}
+            <td><a href="{{ source.url }}">{{ source.name }}</a></td>
+        {% endif %}
+    {% endfor %}
+    </tr>
+</table>
+</div>
+{% endif %}
