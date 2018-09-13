@@ -5,9 +5,13 @@ permalink: /smr/kbuildvariability/
 group: research
 tags: completed
 weight: 2
+short-desc: Although build systems control what code gets compiled into the final built product, they are often overlooked when studying software variability. The Linux kernel is one of the biggest open source software systems supporting variability and contains over 10,000 configurable features described in its KCONFIG files. To understand the role of the build system in variability implementation, we use Linux as a case study. We study its build system, KBUILD, and extract the variability constraints in its Makefiles.
+img: /resources/images/linux-build-proc.png
 ---
 
-Although build systems control what code gets compiled into the final built product, they are often overlooked when studying software variability. The Linux kernel is one of the biggest open source software systems supporting variability and contains over 10,000 configurable features described in its KCONFIG files. To understand the role of the build system in variability implementation, we use Linux as a case study. We study its build system, KBUILD, and extract the variability constraints in its Makefiles.<!--more--> We show that almost 50% of the configurable features in Linux control the compilation of code files in the build system. We use the extracted constraints to detect variability anomalies in the form of dead and undead code files and code blocks. You can find the full details in our [WCRE'11](/resources/pubs/NADI_WCRE2011.pdf), [CSMR'12](/resources/pubs/NADI_CSMR2012.pdf), and [JSEP '13](/resources/pubs/NADI_JSEP_2013.pdf) papers.
+<h1>{{ page.title }}</h1>
+
+Although build systems control what code gets compiled into the final built product, they are often overlooked when studying software variability. The Linux kernel is one of the biggest open source software systems supporting variability and contains over 10,000 configurable features described in its KCONFIG files. To understand the role of the build system in variability implementation, we use Linux as a case study. We study its build system, KBUILD, and extract the variability constraints in its Makefiles. We show that almost 50% of the configurable features in Linux control the compilation of code files in the build system. We use the extracted constraints to detect variability anomalies in the form of dead and undead code files and code blocks. You can find the full details in our [WCRE'11](/resources/pubs/NADI_WCRE2011.pdf), [CSMR'12](/resources/pubs/NADI_CSMR2012.pdf), and [JSEP '13](/resources/pubs/NADI_JSEP_2013.pdf) papers.
 
 In the WCRE paper, we first start with looking at the syntax of conditionally compiling files in Kbuild and ensure that all files have a chance to get compiled. We develop three rules to identify variability anomalies due to problems within Kbuild.
 
