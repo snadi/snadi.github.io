@@ -1,3 +1,19 @@
+- id: MahmoudiSANER19
+  authors: Mehran Mahmoudi, Sarah Nadi, Nikolas Tsantalis
+  title: Are Refactorings to Blame? An Empirical Study of Refactorings in Merge Conflicts.
+  year: 2019
+  venue: IEEE International Conference on Software Analysis, Evolution, and Reengineering
+  collection-title: SANER '19
+  pdf: /resources/pubs/MahmoudiSANER19.pdf
+  
+- id: OwhadiKareshkMSR19
+  authors: Moein Owhadi-Kareshk and Sarah Nadi
+  title: Scalable Software Merging Studies with MERGANSER
+  year: 2019
+  venue: International Conference on Mining Software Repositories 
+  collection-title: MSR '19
+  pdf: /resources/pubs/OwhadiKareshk19.pdf
+
 - id: ProkschSANER17
   authors: Sebastian Proksch, Sarah Nadi, Sven Amann, and Mira Mezini
   title: Enriching In-IDE Process Information with Fine-grained Source Code History
