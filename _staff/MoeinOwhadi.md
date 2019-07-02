@@ -4,5 +4,5 @@ website: "https://webdocs.cs.ualberta.ca/~owhadika/"
 profile_photo_path_staff: "MoeinOwhadi.jpg"
 position: PhD
 status: current
-projects: sw-merging
+projects: sw-merging,code-rec
 ---

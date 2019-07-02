@@ -6,5 +6,5 @@ position: MSc.
 start-year: 2016
 end-year: 2018
 status: previous
-projects: lib-use
+projects: code-rec
 ---

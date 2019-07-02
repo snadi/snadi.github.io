@@ -1,3 +1,17 @@
+{% assign membersCnt = 0 %}
+
+
+{% for member in site.staff %}
+	{% if member.projects contains include.project %}
+		{% assign membersCnt = i | plus:1 %}
+	{% endif %}    
+{% endfor %}
+
+{% if  membersCnt != 0 %}
+<h2>{{include.header}}</h2>
+{% endif %}
+
+
 <div class="grid">
 	{% for member in site.staff %}
 		{% if member.projects contains include.project %}

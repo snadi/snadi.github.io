@@ -6,4 +6,5 @@ position: Undergrad RA
 status: previous
 start-year: 2018
 end-year: 2018
+projects: code-rec
 ---
