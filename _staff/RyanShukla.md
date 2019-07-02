@@ -1,7 +1,7 @@
 ---
 name: Ryan Shukla
 website: ""
-profile_photo_path_staff: "RyanShukla.png"
+profile_photo_path_staff: "RyanShukla.jpeg"
 position: Undergrad RA
 status: current
 start-year: 2019

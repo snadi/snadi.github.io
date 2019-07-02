@@ -45,6 +45,16 @@
 
 {% include filteredmembers.html project=page.key %}
 
+{% if page.collaborators %}
+
+<h2>Collaborators</h2>
+<ul>
+    {% for collaborator in page.collaborators %}
+        <li><a href="{{ collaborator.url }}">{{ collaborator.name }}</a>, {{ collaborator.affiliation }}</li>
+    {% endfor %}
+</ul>
+ 
+{% endif %}
 
 {% if page.funding %}
 
