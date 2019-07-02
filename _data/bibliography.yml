@@ -1,3 +1,12 @@
+- id: OwhadiKareshkESEM19
+  authors: Moein Owhadi-Kareshk, Sarah Nadi, Julia Rubin
+  title: Predicting Merge Conflicts in Collaborative Software Development
+  year: 2019
+  venue: ACM/IEEE International Symposium on Empirical Software Engineering and Measurement
+  collection-title: ESEM '19
+  pdf: /resources/pubs/OwhadiKareshkESEM19.pdf
+
+
 - id: MahmoudiSANER19
   authors: Mehran Mahmoudi, Sarah Nadi, Nikolas Tsantalis
   title: Are Refactorings to Blame? An Empirical Study of Refactorings in Merge Conflicts.
@@ -13,6 +22,14 @@
   venue: International Conference on Mining Software Repositories 
   collection-title: MSR '19
   pdf: /resources/pubs/OwhadiKareshk_MSR19.pdf
+
+- id: AmannMSR19
+  authors: Sven Amann, Hoan Nguyen, Sarah Nadi, Tien Nguyen, and Mira Mezini
+  title: Investigating Next Steps in Static API-Misuse Detection
+  year: 2019
+  venue: International Conference on Mining Software Repositories 
+  collection-title: MSR '19
+  pdf: /resources/pubs/AmannMSR19.pdf
 
 - id: ProkschSANER17
   authors: Sebastian Proksch, Sarah Nadi, Sven Amann, and Mira Mezini
@@ -139,8 +156,9 @@
   authors: Sven Amann, Hoan A. Nguyen, Sarah Nadi, Tien N. Nguyen, and Mira Mezini
   title: A Systematic Evaluation of Static API-Misuse Detectors
   year: 2018
-  venue: TSE '18
-  collection-title: AmannTSE18
+  venue: IEEE Transactions on Software Engineering
+  collection-title: TSE '18
+  pdf: /resources/pubs/Amann_TSE18.pdf
 
 - id: BusingeICSEM18
   authors: John Businge, Openja Moses, Sarah Nadi, Engineer Bainomugisha, and Thorsten Berger}

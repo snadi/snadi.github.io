@@ -11,7 +11,7 @@ group: research
 
 {% include projects.html status="current" %}
 
-## Completed Projects
+## Past Projects
 
 {% include projects.html status="completed" %}
 
