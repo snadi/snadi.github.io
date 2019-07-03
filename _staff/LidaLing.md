@@ -1,7 +1,7 @@
 ---
 name: Lida Ling
 website: ""
-profile_photo_path_staff: "girl.png"
+profile_photo_path_staff: "LidaLing.png"
 position: Undergrad RA
 status: current
 start-year: 2019
