@@ -1,7 +1,7 @@
 ---
 name: Rehab El-Hajj
 website: ""
-profile_photo_path_staff: "girl.png"
+profile_photo_path_staff: "RehabElHajj.png"
 position: Undergrad RA
 status: current
 start-year: 2019
