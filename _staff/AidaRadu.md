@@ -1,7 +1,7 @@
 ---
 name: Aida Radu
 website: ""
-profile_photo_path_staff: "girl.png"
+profile_photo_path_staff: "AidaRadu.png"
 position: Undergrad RA
 status: previous
 start-year: 2018
