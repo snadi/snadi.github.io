@@ -1,7 +1,7 @@
 ---
 name: Batyr Nuryyev
 website: "https://github.com/oneturkmen"
-profile_photo_path_staff: "BatyrNurrev.png"
+profile_photo_path_staff: "BatyrNuryyev.jpeg"
 position: MSc.
 status: current
 start-year: 2019

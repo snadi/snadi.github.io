@@ -1,7 +1,7 @@
 ---
 name: Batyr Nuryyev
 website: ""
-profile_photo_path_staff: "MaxEllis.png"
+profile_photo_path_staff: "MaxEllis.PNG"
 position: MSc.
 status: current
 start-year: 2019
