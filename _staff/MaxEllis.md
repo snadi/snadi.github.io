@@ -1,5 +1,5 @@
 ---
-name: Batyr Nuryyev
+name: Max Ellis
 website: ""
 profile_photo_path_staff: "MaxEllis.PNG"
 position: MSc.
