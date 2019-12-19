@@ -5,13 +5,13 @@ permalink: /smr/photo-gallery
 images:
   - image_path: /resources/gallery/lunches/group-icecream-Nov2019.png
     title: Group Ice Cream Outing, November 2019
-  - image_path: /resources/gallery/lunches/group-lunch-aug2019.jpeg
+  - image_path: /resources/gallery/lunches/group-lunch-aug2019.jpg
     title: Group Lunch, August 2019
   - image_path: /resources/gallery/lunches/group-lunch-jul2018.JPG
     title: Group Lunch, July 2018
   - image_path: /resources/gallery/lunches/group-lunch-oct2017.jpeg
     title: Group Lunch, October 2017
-  - image_path: /resources/gallery/posters/poster-cser2019-max-batyr.jpeg
+  - image_path: /resources/gallery/posters/poster-cser2019-max-batyr.jpg
     title: CSER 2019 poster presentations in Markham, ON (Max Ellis and Batyr Nurryev)
   - image_path: /resources/gallery/posters/poster-cascon17-nazim.JPG
     title: CASCON '17 poster presentations in Markham, ON (Nazim Bhuiyan)
