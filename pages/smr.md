@@ -16,7 +16,7 @@ The SMR lab at the University of Alberta is located in the Computing Science Cen
 * Software Library and API usage recommendations
 * API misuses
 * Highly configurable software & Software Product Lines
-* Software maintenance and evolution
+* Software merging
 
 ## Fun facts: 
 
