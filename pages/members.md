@@ -12,9 +12,9 @@ permalink: /smr/members/
 {% include filteredmembers-status.html position="Faculty" status="current" %}
 
 
-<h3>Current PhD Students</h3>
+<h3>Current Postdocs</h3>
 
-{% include filteredmembers-status.html position="PhD" status="current" %} 
+{% include filteredmembers-status.html position="postdoc" status="current" %} 
 
 <h3>Current Master's Students</h3>
 
