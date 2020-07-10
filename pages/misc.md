@@ -7,6 +7,7 @@ permalink: /misc/
 ## Academic Advise and Resources
 
 * [Writing Papers](/writing-papers/) (discusses logistics and organization)
+* [Preparing a Grad School Application & Contacting Potential Supervisors](https://youtu.be/B3oANa67Iq4)
 
 ## Personal
 
