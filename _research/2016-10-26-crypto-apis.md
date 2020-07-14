@@ -4,7 +4,7 @@ title: Cryptography APIs
 date: 2016-10-26 16:37:00
 permalink: /smr/crypto-apis/
 group: research
-tags: current
+tags: past
 weight: 4
 short-desc: Previous research has shown that many security vulnerabilities exist due to developer's misuse of cryptography APIs. In other words, developers make mistakes while using the APIs and these mistakes can lead to serious security threats. In this project, we investigate the reasons for such mistakes and develop tools to improve the situation. 
 long-desc: "Previous research has shown that many security vulnerabilities exist due to developer's misuse of cryptography APIs. In other words, developers make mistakes while using the APIs and these mistakes can lead to serious security threats. In this project, we investigate the reasons for such mistakes and develop tools on how to improve the situation. 

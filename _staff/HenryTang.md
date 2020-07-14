@@ -6,5 +6,5 @@ position: Undergrad RA
 status: current
 start-year: 2019
 end-year: 2019
-projects: code-rec
+projects: code-rec, lib-use
 ---
