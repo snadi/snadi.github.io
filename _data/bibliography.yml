@@ -1,3 +1,12 @@
+- id: NadiSANER20
+  authors: Sarah Nadi and Christoph Treude
+  title: Essential Sentences for Navigating Stack Overflow
+  year: 2020
+  venue: IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER '20)},
+  collection-title: SANER '20
+  pdf: https://dl.dropboxusercontent.com/s/dzzgm8pbkmhatjl/NadiSANER20.pdf
+
+
 - id: OwhadiKareshkESEM19
   authors: Moein Owhadi-Kareshk, Sarah Nadi, Julia Rubin
   title: Predicting Merge Conflicts in Collaborative Software Development
