@@ -12,7 +12,7 @@ long-desc: "Do you often spend time searching for how to use a specific library 
 To build code recommender systems, we curate and build data sets, build support techniques (e.g., code completion, code search, documentation navigation), and evaluate these techniques through quantitative empirical methods or qualitative methods (e.g., surveys or user studies). This line of work involves static code analysis, data mining, and natural language processing. "
 key: code-rec
 img: /resources/images/ComponentsWithQueries.png
-pubs: RaduMSR19,ProkschSANER17,ProkschASE2016,TangSO20,NadiSANER20
+pubs: TangSO20,NadiSANER20,RaduMSR19,ProkschSANER17,ProkschASE2016
 related-urls:
    - title: Task-oriented Library Documentation
      url: https://github.com/ualberta-smr/TaskOrientedDocumentation

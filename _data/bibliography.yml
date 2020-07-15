@@ -1,10 +1,18 @@
+- id: TangSO20
+  authors: Henry Tang and Sarah Nadi
+  title: Essential Sentences for Navigating Stack Overflow
+  venue: IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER '20)
+  year: 2020
+  pdf: https://dl.dropboxusercontent.com/s/dzzgm8pbkmhatjl/NadiSANER20.pdf
+}
+
 - id: NadiSANER20
   authors: Sarah Nadi and Christoph Treude
   title: Essential Sentences for Navigating Stack Overflow
   year: 2020
   venue: IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER '20)},
   collection-title: SANER '20
-  pdf: https://dl.dropboxusercontent.com/s/dzzgm8pbkmhatjl/NadiSANER20.pdf
+  pdf: /resources/pubs/NadiSANER20.pdf
 
 
 - id: OwhadiKareshkESEM19
