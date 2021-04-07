@@ -2,9 +2,9 @@
 name: Henry Tang
 website: ""
 profile_photo_path_staff: "HenryTang.jpg"
-position: MSc.
+position: Undergrad RA
 status: current
-start-year: 2020
-end-year:
-projects: lib-use
+start-year: 2019
+end-year: 2020
+projects: code-rec
 ---
