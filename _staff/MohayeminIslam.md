@@ -1,6 +1,6 @@
 ---
 name: Mohayeminul Islam
-website: "https://sites.google.com/view/mohayemin/"
+website: "https://mohayemin.github.io"
 profile_photo_path_staff: "MohayeminIslam.png"
 position: PhD
 status: current
