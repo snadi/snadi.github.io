@@ -1,3 +1,11 @@
+- id: NuryyevICSE21
+  authors: Batyr Nuryyev, Sarah Nadi, Nazim Uddin Bhuiyan, and Leonardo Bandareli
+  title: Challenges of Implementing Software Variability in Eclipse OMR: An Interview Study
+  venue: IEEE/ACM International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP '21)
+  year: 2021
+  collection-title: ICSE '21
+  pdf: https://www.dropbox.com/s/en3nfg15tpm13t9/NuryyevICSE21SEIP.pdf
+  
 - id: TangSO20
   authors: Henry Tang and Sarah Nadi
   title: Essential Sentences for Navigating Stack Overflow
