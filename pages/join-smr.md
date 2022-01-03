@@ -12,7 +12,7 @@ The following information is important for prospective students.
 
 ![Software Maintenance and Reuse Lab]({{ "/resources/images/logo_web_color_2400_frame_transparent.png" }}){: .group-logo } 
 
-* I'm always looking for students at all levels (Master's, PhD, and undergrad RAs). **I especially encourage applicants from under-represented groups in CS, including women, to apply to my group.**
+* I'm always looking for students at all levels (Master's, PhD, and undergrad RAs). **I especially encourage women and applicants from other under-represented groups in CS to apply to my group.**
 * **Please note that I unfortunatelly cannot offer undergraduate internships for students who are not currently registered at a Canadian instituition**
 * I'm currently interested in the areas of code recommenders (helping with developers with library and API selection and usage), software integration, and code search. I can also be opportunistic: if you have a related *software engineering topic* that sounds interesting to me, feel free to email me with specifics.
 * **Prospective PhD Students should have already obtained a Master's degree in software engineering or a related field and** **published at least one peer-reviewed paper in a software engineering venue**. I will usually have a video call with promising candidates. I typically ask PhD candidates to give a 10 min presentation of their research (e.g., their master's work). I also typically give a programming task and a paper review task.
