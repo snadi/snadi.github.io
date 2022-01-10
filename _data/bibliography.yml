@@ -62,7 +62,7 @@
   year: 2019
   venue: International Conference on Mining Software Repositories 
   collection-title: MSR '19
-  pdf: /resources/pubs/AmannMSR19.pdf
+  pdf: /resources/pubs/Amann_MSR19.pdf
 
 - id: ProkschSANER17
   authors: Sebastian Proksch, Sarah Nadi, Sven Amann, and Mira Mezini
@@ -70,7 +70,7 @@
   year: 2017
   venue: IEEE International Conference on Software Analysis, Evolution, and Reengineering
   collection-title: SANER '17
-  pdf: /resources/pubs/ProkschSANER17.pdf
+  pdf: /resources/pubs/Proksch_SANER17.pdf
 
 - id: ProkschASE2016
   authors: Sebastian Proksch, Sven Amann, Sarah Nadi, and Mira Mezini
@@ -78,7 +78,7 @@
   year: 2016
   venue: IEEE/ACM International Conference on Automated Software Engineering
   collection-title: ASE '16
-  pdf: /resources/pubs/ProkschASE2016.pdf
+  pdf: /resources/pubs/Proksch_ASE16.pdf
 
 
 - id: CerganiSWAN16
@@ -87,7 +87,7 @@
   year: 2016
   venue: International Workshop on Software Analytics
   collection-title: SWAN '16
-  pdf: /resources/pubs/CerganiSWAN16.pdf
+  pdf: /resources/pubs/Cergani_SWAN16.pdf
 
 - id: AmannICPC16
   authors: Sven Amann, Sebastian Proksch, and Sarah Nadi}
@@ -95,7 +95,7 @@
   year: 2016
   venue: International Conference on Program Comprehension -- Tool Track 
   collection-title: ICPC '16
-  pdf: /resources/pubs/AmannICPC16.pdf
+  pdf: /resources/pubs/Amann_ICPC16.pdf
 
 - id: NadiICSE2016
   authors: Sarah Nadi, Stefan Krüger, Mira Mezini, and Eric Bodden
@@ -103,7 +103,7 @@
   year: 2016
   venue: International Conference on Software Engineering
   collection-title: ICSE '16
-  pdf: /resources/pubs/NadiICSE2016.pdf
+  pdf: /resources/pubs/NADI_ICSE16.pdf
   slides: https://www.slideshare.net/sarah_nadi/why-java-developers-struggle-with-cryptography-apis
 
 - id: NADIVamos16
@@ -112,7 +112,7 @@
   year: 2016
   venue: International Workshop on Variability Modelling of Software-intensive Systems
   collection-title: VaMoS '16
-  pdf: /resources/pubs/NADIVamos16.pdf
+  pdf: /resources/pubs/NADI_Vamos16.pdf
 
 - id: AmannSANER16
   authors: Sven Amann, Sebastian Proksch, Sarah Nadi, and Mira Mezini
@@ -120,7 +120,7 @@
   year: 2016
   venue: IEEE International Conference on Software Analysis, Evolution, and Reengineering
   collection-title: SANER '16
-  pdf: /resources/pubs/AmannSANER16.pdf
+  pdf: /resources/pubs/Amann_SANER16.pdf
 
 - id: AmannMSR16
   authors: Sven Amann, Sarah Nadi, Hoan A. Nguyen, Tien N. Nguyen, and Mira Mezini 
@@ -128,7 +128,7 @@
   year: 2016
   venue: International Conference on Mining Software Repositories -- Data Showcase Track
   collection-title: MSR '16
-  pdf: /resources/pubs/AmannMSR16.pdf
+  pdf: /resources/pubs/Amann_MSR16_MUBench.pdf
 
 - id: ProkschMSR16
   authors: Sebastian Proksch, Sven Amann, Sarah Nadi, and Mira Mezini
@@ -136,7 +136,7 @@
   year: 2016
   venue: International Conference on Mining Software Repositories -- Data Showcase Track
   collection-title: MSR '16
-  pdf: /resources/pubs/ProkschMSR16.pdf
+  pdf: /resources/pubs/Proksch_MSR16.pdf
 
 - id: SoaresVaMoS18
   authors: Larissa Rocha Soares, Jens Meinicke, Sarah Nadi, Christian Kästner, and Eduardo Santana de Almeida
@@ -151,7 +151,7 @@
   year: 2017
   venue: IEEE/ACM International Conference on Automated Software Engineering -- Tool Demo Track
   collection-title: ASE '17
-  pdf: /resources/pubs/KruegerASE17.pdf
+  pdf: /resources/pubs/Kruger_ASE17.pdf
 
 - id: AlMasriCASCON17
   authors: Samer Al Masri, Nazim Uddin Bhuiyan, Sarah Nadi, and Matthew Gaudet
@@ -167,7 +167,7 @@
   year: 2017
   venue: IEEE Transactions on Software Engineering
   collection-title: TSE '17
-  pdf: /resources/pubs/SalvaneschiTSE17.pdf
+  pdf: /resources/pubs/Salvaneschi_TSE17.pdf
 
 - id: LopezdelaMoraICSENIER18
   authors: Fernando Lopez de la Mora and Sarah Nadi
@@ -175,7 +175,7 @@
   year: 2018
   venue: International Conference on Software Engineering New Ideas and Emerging Results Track
   collection-title: ICSE NIER '18
-  pdf: /resources/pubs/LopezdelaMoraICSENIER18.pdf
+  pdf: /resources/pubs/LopezDeLaMore_ICSE_NIER_18.pdf
 
 
 - id: MahmoudiMSR18
@@ -199,7 +199,7 @@
   year: 2018
   venue: International Conference on Software Maintenance and Evolution -- Industry Track
   collection-title: ICSME '18
-  pdf: /resources/pubs/BusingeICSEM18.pdf
+  pdf: /resources/pubs/BusingeICSME18.pdf
 
 - id: ALMasriSPLC18
   authors: Samer Al Masri, Sarah Nadi, Matthew Gaudet, Xiaoli Liang and Robert W. Young
@@ -224,7 +224,7 @@
   venue: SIGPLAN symposium on new ideas in programming
     and reflections on software at splash
   collection-title: ONWARD! ’15
-  pdf: /resources/pubs/ArztOnward2015.pdf
+  pdf: /resources/pubs/Arzt_Onward2015.pdf
   slides: https://www.slideshare.net/sarah_nadi/onward15
 
 - id: Medeiros2015
@@ -246,7 +246,7 @@
   collection-title: TSE '15
   page: 820 - 841
   volume: 99
-  pdf: /resources/pubs/NadiTSE2015.pdf
+  pdf: /resources/pubs/NADI_TSE_2015.pdf
 
 - id: NadiICSE2014
   type: paper-conference
@@ -256,7 +256,7 @@
   venue: International conference on software engineering
   collection-title: ICSE ’14
   page: 140 - 151
-  pdf: /resources/pubs/NadiICSE2014.pdf
+  pdf: /resources/pubs/NADI_ICSE14.pdf
 
 - id: NadiWCRE2011
   type: paper-conference
@@ -266,7 +266,7 @@
   container-title: Working conference on reverse engineering
   collection-title: WCRE ’11
   page: '315-324'
-  pdf: /resources/pubs/NadiWCRE2011.pdf
+  pdf: /resources/pubs/NADI_WCRE2011.pdf
 
 - id: NadiCSMR2012
   type: paper-conference
@@ -277,7 +277,7 @@
     and reengineering
   collection-title: CSMR ’12
   page: '107-116'
-  pdf: /resources/pubs/NadiCSMR2012.pdf
+  pdf: /resources/pubs/NADI_CSMR2012.pdf
 
 - id: NadiCSMR2010
   type: paper-conference
@@ -287,7 +287,7 @@
   venue: European conference on software maintenance and reengineering
   collection-title: CSMR ’10
   page: '97-106'
-  pdf: /resources/pubs/NadiCSMR2010.pdf
+  pdf: /resources/pubs/NADI_CSMR2010.pdf
 
 - id: NadiCASCON2009
   type: paper-conference
@@ -307,7 +307,7 @@
   venue: Working conference on mining software repositories
   collection-title: MSR ’13
   page: '343-352'
-  pdf: /resources/pubs/HemmatiMSR2013.pdf
+  pdf: /resources/pubs/Hemmati_MSR_2013.pdf
 
 - id: NadiMSR2013
   type: paper-conference
@@ -317,7 +317,7 @@
   venue: working conference on mining software repositories
   collection-title: MSR ’13
   page: '111-120'
-  pdf: /resources/pubs/NadiMSR2013.pdf
+  pdf: /resources/pubs/NADI_MSR_2013.pdf
 
 - id: ZhouReleng2015
   type: workshop
@@ -326,7 +326,7 @@
   title: Extracting configuration knowledge from build files with symbolic analysis
   publisher: International Workshop on Release Engineering
   collection-title: RELENG '15
-  pdf: /resources/pubs/ZhouReleng2015.pdf
+  pdf: /resources/pubs/Zhou_RELENG_15.pdf
 
 - id: NadiDS2013
   type: extra
@@ -336,7 +336,7 @@
   collection-title: ICSE ’13
   venue: International Conference on Software Engineering -- Doctoral Symposium
   pages: '1353–1356'
-  pdf: /resources/pubs/NadiDS2013.pdf
+  pdf: /resources/pubs/NADI_ICSE2013_DS.pdf
 
 - id: NadiJournal2013
   type: article-journal
@@ -347,7 +347,7 @@
   page: '730-746'
   volume: '26'
   issue: '8'
-  pdf: /resources/pubs/NadiJournal2013.pdf
+  pdf: /resources/pubs/NADI_JSEP_2013.pdf
 
 
 - id: AlyPervasive2008
