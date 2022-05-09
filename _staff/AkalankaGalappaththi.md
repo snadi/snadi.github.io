@@ -1,6 +1,6 @@
 ---
 name: Akalanka Galappaththi
-website: "https://scholar.google.com/citations?user=oAxN7o4AAAAJ&hl=en"
+website: "https://boneyag.github.io/"
 profile_photo_path_staff: "AkalankaGalappaththi.jpg"
 position: PhD
 status: current
