@@ -6,6 +6,6 @@ position: MSc.
 status: previous
 start-year: 2019
 end-year: 2021
-projects: var-c++
+projects: api-misuse
 permalink: /smr/batyr
 ---
