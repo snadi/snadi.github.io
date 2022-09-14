@@ -6,11 +6,11 @@ group: teaching
 
 # Teaching
 
-* [CMPUT 402 - Software Quality](https://www.ualberta.ca/computing-science/undergraduate-studies/course-directory/courses/software-quality), University of Alberta -- Winter 2019, Winter 2020, Winter 2021
+* [CMPUT 402 - Software Quality](https://www.ualberta.ca/computing-science/undergraduate-studies/course-directory/courses/software-quality), University of Alberta -- Winter 2019, Winter 2020, Winter 2021, Winter 2022
 
 * [CMPUT 201 - Practical Programming Methodology](https://www.ualberta.ca/computing-science/undergraduate-studies/course-directory/courses/practical-programming-methodology), University of Alberta -- Winter 2017, Winter 2018, Winter 2019, Winter 2021
 
-* [CMPUT 663 - Software Analytics](https://www.ualberta.ca/computing-science/graduate-studies/course-directory/courses/software-analytics.html), University of Alberta -- Fall 2019
+* [CMPUT 663 - Software Analytics](https://www.ualberta.ca/computing-science/graduate-studies/course-directory/courses/software-analytics.html), University of Alberta -- Fall 2019, Fall 2021
 
 * [CMPUT 663 - Software Maintenance and Reuse](cmput663-f17.md), University of Alberta -- Fall 2017
 
