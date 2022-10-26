@@ -1,3 +1,18 @@
+- id: NuryyevICSME22
+  title:  Mining Annotation Usage Rules: A Case Study with MicroProfile. 
+  authors: Batyr Nuryyev, Ajay Kumar Jha, Sarah Nadi, Yee-Kang Chang, Emily Jiang, Vijay Sundaresan
+  venue: "The International Conference on Software Maintenance and Evolution"
+  year: 2022
+  collection-title: ICSME '22
+  pdf: https://www.dropbox.com/s/q38eorbu6bkrfe5/Nuryyev_ICSME22.pdf
+
+- id: GulamiCASCON22
+  title: "A Human-in-the-loop Approach to Generate Annotation Usage Rules: A Case Study with MicroProfile"
+  authors: Mansur Gulami, Ajay Kumar Jha, Sarah Nadi, Karim Ali, Emily Jiang, Yee-Kang Chang
+  year: 2022
+  collection-title: CASCON '22
+  pdf: https://www.dropbox.com/s/hbhpaig9hg0g9l0/GulamiCASCON22.pdf
+
 - id: NuryyevICSE21
   authors: Batyr Nuryyev, Sarah Nadi, Nazim Uddin Bhuiyan, and Leonardo Bandareli
   title: "Challenges of Implementing Software Variability in Eclipse OMR: An Interview Study"
