@@ -12,7 +12,7 @@ The following information is important for prospective students.
 
 ![Software Maintenance and Reuse Lab]({{ "/resources/images/logo_web_color_2400_frame_transparent.png" }}){: .group-logo } 
 
-**Update for Fall 2023 admissions:** I am currently on sabbatical until July 2023. I may be slow in responding to prospective student emails. As already indiciated below, for Master's students, please contact me **only if you have already submitted your application to our graduate program**.
+**Update for Fall 2023 admissions:** I am currently on sabbatical until July 2023. I may be slow in responding to prospective student emails, or may not be able to respond at all. For Master's students, I will check some of the applications that mention my name in our admissions system. For PhD students, please feel free to email me following the instructions below (but expect delayed responses)
 
 * I'm always looking for students at all levels (Master's, PhD, and undergrad RAs). **I especially encourage women and applicants from other under-represented groups in CS to apply to my group.**
 * **Please note that I unfortunatelly cannot offer undergraduate internships for students who are not currently registered at a Canadian instituition**
