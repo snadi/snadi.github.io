@@ -2,6 +2,8 @@
 layout: page
 title:
 permalink: /writing-papers/
+nav: false
+nav_order: 5
 ---
 
 # Writing Academic Papers 

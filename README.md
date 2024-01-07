@@ -1,1 +1,3 @@
-My personal website, based on http://jekyllthemes.org/themes/svm-ngvb/
+# Sarah Nadi's Website
+
+(Offline) fork of the [al-folio theme](https://github.com/alshedivat/al-folio/tree/master), used under MIT license.

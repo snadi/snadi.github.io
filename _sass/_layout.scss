@@ -1,100 +1,64 @@
-/**
- * Page content
- */
-.page-content {
-    padding: $spacing-unit 0;
+/******************************************************************************
+ * Content
+ ******************************************************************************/
+
+body {
+  padding-bottom: 70px;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
+
+  h1, h2, h3, h4, h5, h6 {
+    scroll-margin-top: 66px;
+  }
 }
 
-.page-heading {
-    font-size: 20px;
+body.fixed-top-nav {
+  // Add some padding for the nav-bar.
+  padding-top: 56px;
 }
 
-.post-list {
-    margin-left: 0;
-    list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
+body.sticky-bottom-footer {
+  // Remove padding below footer.
+  padding-bottom: 0;
 }
 
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
+.container {
+  max-width: $max-content-width;
 }
 
-.post-link {
-    display: block;
-    font-size: 24px;
+// Profile
+.profile {
+  img {
+    width: 100%;
+  }
 }
 
+// TODO: redefine content layout.
 
 
-/**
- * Posts
- */
-.post-header {
-    margin-bottom: $spacing-unit;
-}
+/******************************************************************************
+ * Publications
+ ******************************************************************************/
 
-h1 /* .post-title */ {
-/*    font-size: 42px; */
-    letter-spacing: -1px;
-    line-height: 1;
-		font-family: 'Titillium Web', sans-serif;
-		color: #111;
-
-    @include media-query($on-laptop) {
-/*        font-size: 36px; */
-    }
-}
-
-.post-content {
-    margin-bottom: $spacing-unit;
-
-    h2 {
-		font-family: 'Titillium Web', sans-serif;
-	font-weight: 500;
-/*        font-size: 32px; */
-
-        @include media-query($on-laptop) {
-/*            font-size: 28px; */
-        }
-    }
-
-    h3 {
-		font-style: italic;
-/*        font-size: 26px; */
-
-        @include media-query($on-laptop) {
-/*            font-size: 22px; */
-        }
-    }
-
-    h4 {
-/*       font-size: 20px; */
-
-        @include media-query($on-laptop) {
-/*            font-size: 18px; */
-        }
-    }
-}
-
-						.footnotes ol li {list-style-type:decimal;}
-						.footnotes ol {font-size:.85em; color:#666666;}	
-	
-html {
-  overflow-y: scroll;
-}
+// TODO: redefine publications layout.
 
 
+/*****************************************************************************
+* Projects
+*****************************************************************************/
+
+// TODO: redefine projects layout.
+
+/******************************************************************************
+* Members
+*******************************************************************************/
 /**
 * members page
 **/
 .grid {
-// 	float: left;
+  // 	float: left;
 }
-
+  
 .grid:before, .grid:after {
   display: table;
   content: " ";
@@ -105,77 +69,6 @@ html {
 }
 
 .member {
-	width: 25%;
-	display: inline-block;
-}
-
-/** 
-* Project Descriptions
-**/
-/**
- * Row layout
- */
-.row {
-	margin-bottom: $base-font-size;
-}
-
-.row:before, .row:after {
-  display: table;
-  content: " ";
-}
-
-.row:after {
-  clear: both;
-}
-
-.row-pic-left, .row-info {
-  padding-right: 15px;
-  padding-left: 15px;
-  box-sizing: border-box;
-  position: relative;
-  float: left;
-}
-
-.row-pic-left {
-  > img {
-    width: 140px;
-    display: inline-block;
-    height: auto;
-    padding: 4px;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5%;
-    box-sizing: border-box;
-  }
-
   width: 25%;
-  float: left;
-}
-
-.row-pic, .row-info {
-  padding-right: 15px;
-  padding-left: 15px;
-  box-sizing: border-box;
-  position: relative;
-  float: right;
-}
-
-.row-pic {
-  > img {
-    width: 140px;
-    display: inline-block;
-    height: auto;
-    padding: 4px;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5%;
-    box-sizing: border-box;
-  }
-
-  width: 25%;
-  float: right;
-}
-
-.row-info {
-  width: 75%;
+  display: inline-block;
 }
