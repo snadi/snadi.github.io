@@ -1,0 +1,79 @@
+---
+layout: page
+---
+
+<div class="emph-border">		
+If you would like to join my group, please read the <a href="{{ "/apply" |  prepend: site.baseurl }}">following important information</a> before contacting me.
+</div>
+
+<br/><br/>
+
+<div class="grid">
+
+  <!-- Postdocs -->
+  {% if page.profiles.postdoc -%}
+  <h2>Current Postdocs</h2>
+  {% for profile in page.profiles.postdoc %}
+
+  <hr>
+
+  {% include member.html
+  image=profile.image
+  url=profile.url
+  name=profile.name -%}
+
+  {% endfor %}
+  {%- endif %}
+
+  <!-- PhD -->
+  {% if page.profiles.doctoral -%}
+  <h2>Current PhD Students</h2>
+  <hr>
+  {% for profile in page.profiles.doctoral %}
+
+  {% include member.html
+  image=profile.image
+  url=profile.url
+  name=profile.name 
+  affiliation=profile.affiliation -%}
+
+  {% endfor %}
+  {%- endif %}
+
+  <!-- Masters -->
+  {% if page.profiles.masters -%}
+  <h2>Current Masters Students</h2>
+  <hr>
+  {% for profile in page.profiles.masters %}
+
+  {% include member.html
+  image=profile.image
+  url=profile.url
+  name=profile.name 
+  affiliation=profile.affiliation -%}
+
+  {% endfor %}
+  {%- endif %}
+
+  <!-- Alumni -->
+  {% if page.profiles.alumni -%}
+
+  {% assign sorted = page.profiles.alumni  | sort: 'endyear' | reverse %}
+
+  <h2>Previous Members</h2>
+  <hr>
+  {% for profile in sorted  %}
+
+  {% include member.html
+  image=profile.image
+  url=profile.url
+  name=profile.name 
+  position=profile.position 
+  startyear=profile.startyear 
+  endyear=profile.endyear 
+  affiliation=profile.affiliation -%}
+
+  {% endfor %}
+  {%- endif %}
+
+</div>

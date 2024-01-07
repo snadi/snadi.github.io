@@ -1,0 +1,19 @@
+<div class="member">
+  {%- if include.image %}
+  {%- assign profile_image_path = include.image | prepend: 'assets/img/students/' -%}
+
+  {%- assign profile_image_class = "img-fixed z-depth-1 rounded-circle" -%}
+
+
+  {% include figure.html
+  path=profile_image_path
+  class=profile_image_class
+  alt=include.image
+  url=include.url
+  caption=include.name 
+  position=include.position 
+  startyear=include.startyear 
+  endyear=include.endyear
+  affiliation=include.affiliation -%}
+  {% endif -%}
+</div>
