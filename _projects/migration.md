@@ -2,7 +2,7 @@
 layout: project
 title: Library Migration
 description: Helping developers switch between libraries
-importance: 3
+importance: 2
 category: active
 img: assets/img/projects/migration.png
 related-urls:

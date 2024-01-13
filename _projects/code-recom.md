@@ -2,8 +2,8 @@
 layout: project
 title: Code Recommender Systems
 description: Helping Developers use APIs
-importance: 3
-category: completed
+importance: 5
+category: active
 img: assets/img/projects/ComponentsWithQueries.png
 related-urls:
    - title: Task-oriented Library Documentation

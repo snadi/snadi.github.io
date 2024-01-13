@@ -1,7 +1,7 @@
 ---
 layout: students
-permalink: /members/
-title: Group Members
+permalink: /students/
+title: Students
 description: I am fortunate to be working/have worked with the following students and researchers.
 nav: true
 nav_order: 1

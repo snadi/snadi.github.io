@@ -3,7 +3,7 @@ layout: project
 title: Library Selection
 description: Comparing & Selecting Software Libraries
 img: assets/img/projects/lib-comparison.png
-importance: 1
+importance: 3
 category: active
 related_publications: LopezdelaMoraICSENIER18,LopezDeLaMoraPROMISE18,ElHajjFSE20,NadiSakrEMSE2022,TangMSR23
 related-urls:

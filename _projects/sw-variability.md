@@ -3,7 +3,7 @@ layout: project
 title: Software Variability
 description: Creating & maintaining variants of the same system
 importance: 4
-category: completed
+category: inactive
 img:  assets/img/projects/var-anomalies.png
 related_publications: NadiJSEP2013,NadiDS2013,NadiMSR2013,NadiCSMR2012,NadiWCRE2011, Medeiros2015, NadiTSE2015, NadiICSE2014, ALMasriSPLC18,AlMasriCASCON17, NuryyevICSE21, BusingeICSEM18,BusingEMSE22
 related-urls:
