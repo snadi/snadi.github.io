@@ -4,7 +4,7 @@ title: CMDBs
 description: Root Cause Analysis & Change Impact Analysis using CMDBs
 img: assets/img/projects/draca.png
 importance: 10
-category: completed
+category: inactive
 related_publications: NadiCASCON2009
 
 ---
