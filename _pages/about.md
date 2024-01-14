@@ -9,10 +9,6 @@ profile:
   align: right
   image: SarahNadi.png
   image_circular: true # crops the image to make it circular
-  # more_info: >
-  #   <p>555 your office number</p>
-  #   <p>123 your address street</p>
-  #   <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -23,3 +19,6 @@ social: true  # includes social icons under the description (can change location
 I am an Associate Professor of Computer Science at [New York University Abu Dhabi](https://nyuad.nyu.edu/en/). I'm currently on leave from the University of Alberta where I hold a [Canada Research Chair in Software Reuse](http://www.chairs-chaires.gc.ca/chairholders-titulaires/profile-eng.aspx?profileId=4393). 
 
 I lead the Software Maintenance and Reuse (SMR) lab where [we](/members) design tools and techniques that can help software developers perform their tasks more efficiently and effectively. My research heavily relies on the idea of mining software repositories, where I extract and analyze data from existing software repositories (e.g., version control systems, issue tracking systems, crowd-sourced question/answer websites) to infer insights that can help developers perform their tasks. For more info on my research, please check my [research projects](/projects/) and [publications](/publications).
+
+**Email:** [sarah.nadi@nyu.edu](mailto:sarah.nadi@nyu.edu)<br/>
+**Office:** Building A1, Office 177
