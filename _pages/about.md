@@ -7,7 +7,7 @@ nav: false
 
 profile:
   align: right
-  image: SarahNadi.png
+  image: SarahNadi.jpg
   image_circular: true # crops the image to make it circular
 
 news: true  # includes a list of news items
