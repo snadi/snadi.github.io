@@ -2,7 +2,7 @@
 layout: post
 date: 2024-05-14
 inline: false
-title: I'm hiring fully funded PhD students for Fall 2025!
+title: I'm hiring fully funded PhD students at NYUAD for Fall 2025!
 related_posts: false
 ---
 
