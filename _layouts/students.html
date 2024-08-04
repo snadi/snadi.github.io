@@ -13,14 +13,14 @@ If you would like to join my group, please read the <a href="{{ "/apply" |  prep
   <!-- Postdocs -->
   {% if page.profiles.postdoc -%}
   <h2>Current Postdocs</h2>
+  <hr>
   {% for profile in page.profiles.postdoc %}
 
-  <hr>
-
   {% include member.html
-  image=profile.image
-  url=profile.url
-  name=profile.name -%}
+    image=profile.image
+    url=profile.url
+    name=profile.name 
+    affiliation=profile.affiliation -%}
 
   {% endfor %}
   {%- endif %}

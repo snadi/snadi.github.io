@@ -7,6 +7,15 @@ nav: true
 nav_order: 1
 
 profiles:
+  postdoc:
+    - image: FranciscoRibeiro.jpeg
+      name: Francisco Ribeiro
+      affiliation: NYUAD
+      url: https://scholar.google.pt/citations?user=zTLXgZgAAAAJ&hl=en
+    - image: MayMahmoud.jpg
+      name: May Mahmoud
+      url: https://www.maymahmoud.org 
+      affiliation: NYUAD
   doctoral:
     - image: MohayeminIslam.png
       name: Mohayeminul Islam
