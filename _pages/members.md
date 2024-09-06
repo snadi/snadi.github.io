@@ -25,11 +25,13 @@ profiles:
       image: AkalankaGalappaththi.jpg
       url: https://boneyag.github.io/
       affiliation: UofA
-  masters:
-    - image: AfiyaFahmidaSarah.jpeg
-      name: Afiya Sarah
-      affiliation: UofA
   alumni:
+    - name: Afiya Sarah Fahmida
+      image: AfiyaFahmidaSarah.jpeg
+      position: MSc
+      startyear: 2022
+      endyear: 2024
+      affiliation: UofA
     - name: Max Ellis
       image: MaxEllis.jpg
       position: MSc
