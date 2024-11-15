@@ -5,7 +5,7 @@ description: Helping developers with software evolution & merge conflicts
 importance: 3
 category: inactive
 img: assets/img/projects/comparison_scenario.png
-pubs: MahmoudiMSR18,MahmoudiSANER19,OwhadiKareshkMSR19,OwhadiKareshkESEM19,EllisTSE2023,BusingEMSE22,BusingeICSEM18
+related_publications: MahmoudiMSR18,MahmoudiSANER19,OwhadiKareshkMSR19,OwhadiKareshkESEM19,EllisTSE2023,BusingEMSE22,BusingeICSEM18,EllisTSE2023
 related-urls:
    - title: Android Update Analysis
      url: https://github.com/ualberta-smr/Android-Update-Analysis

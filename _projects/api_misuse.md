@@ -5,7 +5,7 @@ description: Ensuring that library APIs are correctly used
 img: assets/img/projects/mubench.png
 importance: 1
 category: active
-related_publications: GulamiCASCON22,NuryyevICSME22,AmannMSR19,AmannTSE18,AmannMSR16,KruegerASE17,NadiICSE2016,NADIVamos16,ArztOnward2015,KrugerSecDev23
+related_publications: GulamiCASCON22,NuryyevICSME22,AmannMSR19,AmannTSE18,AmannMSR16,KruegerASE17,NadiICSE2016,NADIVamos16,ArztOnward2015,KrugerSecDev23,GalaESEM2024
 related-urls:
    - title: MUBench Repository
      url: https://github.com/stg-tud/MUBench
@@ -21,6 +21,17 @@ related-urls:
 When developers use Application Programming Interfaces (APIs), they often make mistakes that can lead to bugs, system crashes, or security vulnerabilities. We refer to such mistakes as <i>misuses</i>. One example of a misuse is forgetting to call <code>close()</code> after opening a <code>FileInputStream</code> and writing to it. 
 
 We study various types of API misuse.
+
+### API Misuse of Data-centric Python Libraries
+
+<div class="justify-content-sm-center">
+<div class="col-sm-4 mt-3 mt-md-0 justify-content-sm-center">
+        {% include figure.html path="assets/img/projects/data-centric-misuse.png" title="Example of a data-centric misuse" class="img-fluid rounded z-depth-1" %}
+</div>
+Data-centric Python libraries, such as pandas, matplotlib etc., often deal with diverse data structures, intricate processing workflows, and a multitude of parameters, which can make them inherently more challenging to use correctly. Detecting problems in the usage of these libraries is challenging, not only due to the dynamic nature of Python but due to the fact that some misuses depend on the data that is being processed. In this line of work, we investigate how API misuse manifests in these data-centric libraries and how we can design successful detection strategies to help developers use them correctly.
+</div>
+
+
 
 ### General Java API Misuse
 

@@ -12,7 +12,7 @@ funding:
    - name: Canada Research Chairs Program
      link: http://www.chairs-chaires.gc.ca/home-accueil-eng.aspx
      img: /resources/images/crc.png
-related_publications: IslamMSR23
+related_publications: IslamMSR23, IslamFSE24
 ---
 
 Software developers often need to replace third-party libraries with newer or better libraries, a process known as *library migration*.
