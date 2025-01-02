@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons under the description (can change location from about.html)
 ---
 
-I am an Associate Professor of Computer Science at [New York University Abu Dhabi](https://nyuad.nyu.edu/en/). I'm currently on leave from the University of Alberta where I hold a [Canada Research Chair in Software Reuse](http://www.chairs-chaires.gc.ca/chairholders-titulaires/profile-eng.aspx?profileId=4393). 
+I am an Associate Professor of Computer Science at [New York University Abu Dhabi](https://nyuad.nyu.edu/en/), where I also serve as the Associate Program Head for Undergraduate Studies in Computer Science. I also hold an adjunct position at the University of Alberta.
 
 I lead the Software Maintenance and Reuse (SMR) lab where [we](/members) design tools and techniques that can help software developers perform their tasks more efficiently and effectively. My research heavily relies on the idea of mining software repositories, where I extract and analyze data from existing software repositories (e.g., version control systems, issue tracking systems, crowd-sourced question/answer websites) to infer insights that can help developers perform their tasks. For more info on my research, please check my [research projects](/projects/) and [publications](/publications).
 
