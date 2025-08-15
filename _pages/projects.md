@@ -3,7 +3,7 @@ layout: page
 title: Research Projects
 permalink: /projects/
 description:
-nav: true
+nav: false
 nav_order: 2
 display_categories: [active, inactive]
 horizontal: false

@@ -19,7 +19,7 @@ hiring: true # includes hiring note
 
 I am an Associate Professor of Computer Science at [New York University Abu Dhabi](https://nyuad.nyu.edu/en/). I also hold an adjunct position at the University of Alberta.
 
-I co-direct the [SANAD lab](https://sanadlab.org) lab where we design tools and techniques that can help software developers perform their tasks more efficiently and effectively. My research heavily relies on the idea of mining software repositories, where I extract and analyze data from existing software repositories (e.g., version control systems, issue tracking systems, crowd-sourced question/answer websites) to infer insights that can help developers perform their tasks. For more info on my research, please check SANAD's [research projects](https://sanadlab.org/projects/) and [publications](https://sanadlab.org/publications/).
+I co-direct the [SANAD lab](https://sanadlab.org) lab where we design tools and techniques that can help software developers perform their tasks more efficiently and effectively. My research heavily relies on the idea of mining software repositories, where I extract and analyze data from existing software repositories (e.g., version control systems, issue tracking systems, crowd-sourced question/answer websites) to infer insights that can help developers perform their tasks. For more info on my research, please check SANAD's [research projects](https://sanadlab.org/projects/) and my [publications](https://sanadlab.org/publications/?bibsearch=Nadi).
 
 **Email:** [sarah.nadi@nyu.edu](mailto:sarah.nadi@nyu.edu)<br/>
 **Office:** Building A1, Office 177
