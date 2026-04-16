@@ -96,17 +96,6 @@ p {
     margin-bottom: 1rem
 }
 
-abbr[data-original-title],
-abbr[title] {
-    text-decoration: underline;
-    -webkit-text-decoration: underline dotted;
-    text-decoration: underline dotted;
-    cursor: help;
-    border-bottom: 0;
-    -webkit-text-decoration-skip-ink: none;
-    text-decoration-skip-ink: none
-}
-
 dl,
 ol,
 ul {
@@ -479,9 +468,7 @@ pre code {
     margin-left: -15px
 }
 
-.col,
-.col-sm-2,
-.col-sm-8 {
+.col {
     position: relative;
     width: 100%;
     padding-right: 15px;
@@ -494,21 +481,6 @@ pre code {
     -ms-flex-positive: 1;
     flex-grow: 1;
     max-width: 100%
-}
-
-@media (min-width:576px) {
-
-    .col-sm-2 {
-        -ms-flex: 0 0 16.666667%;
-        flex: 0 0 16.666667%;
-        max-width: 16.666667%
-    }
-
-    .col-sm-8 {
-        -ms-flex: 0 0 66.666667%;
-        flex: 0 0 66.666667%;
-        max-width: 66.666667%
-    }
 }
 
 .table {
@@ -642,14 +614,6 @@ pre code {
 
 a.btn.disabled {
     pointer-events: none
-}
-
-
-.btn-sm {
-    padding: .25rem .5rem;
-    font-size: .875rem;
-    line-height: 1.5;
-    border-radius: .2rem
 }
 
 .btn-block {
@@ -1826,10 +1790,6 @@ a.close.disabled {
 
     a:not(.btn) {
         text-decoration: underline
-    }
-
-    abbr[title]::after {
-        content: " (" attr(title) ")"
     }
 
     pre {
